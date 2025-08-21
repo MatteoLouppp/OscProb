@@ -10,6 +10,6 @@ var searchData=
   ['mergepaths_7',['MergePaths',['../namespaceOscProb.html#a21f576551c47cf787c2df50a4f4b5c83',1,'OscProb']]],
   ['min_8',['min',['../structOscProb_1_1EarthModelBinned_1_1LonBinInfo.html#a789e8183825c615b134dad0aa697a7cc',1,'OscProb::EarthModelBinned::LonBinInfo']]],
   ['modifier_9',['Modifier',['../namespaceColor.html#a12f045e740501bc0b6015e6417b214b4',1,'Color']]],
-  ['multiplicationrulek_10',['MultiplicationRuleK',['../classOscProb_1_1PMNS__TaylorExp.html#a20d4a3bdca658e031f0c02d5d919a8e8',1,'OscProb::PMNS_TaylorExp']]],
-  ['multiplicationrules_11',['MultiplicationRuleS',['../classOscProb_1_1PMNS__TaylorExp.html#aaeadb88a7341fd091d9d127dbd5b0f70',1,'OscProb::PMNS_TaylorExp']]]
+  ['multiplicationrulek_10',['MultiplicationRuleK',['../classOscProb_1_1PMNS__TaylorExp.html#a36a4920e559b450930d2086ec7a8e30b',1,'OscProb::PMNS_TaylorExp']]],
+  ['multiplicationrules_11',['MultiplicationRuleS',['../classOscProb_1_1PMNS__TaylorExp.html#a38b52f1877a28133c3a6da4d4339030f',1,'OscProb::PMNS_TaylorExp']]]
 ];
