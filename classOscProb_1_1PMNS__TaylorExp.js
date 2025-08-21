@@ -79,7 +79,7 @@ var classOscProb_1_1PMNS__TaylorExp =
     [ "RotateDensityM", "classOscProb_1_1PMNS__TaylorExp.html#aff3e32f6e43a431bc09624dae5549e1e", null ],
     [ "RotateH", "classOscProb_1_1PMNS__TaylorExp.html#a2d0f021378d6c782a88298ae2f734f4c", null ],
     [ "rotateK", "classOscProb_1_1PMNS__TaylorExp.html#a6f23b885d257c73057514451536593f8", null ],
-    [ "rotateS", "classOscProb_1_1PMNS__TaylorExp.html#a1c3de148a6f5ee459e971b0fbbb8ca7b", null ],
+    [ "rotateS", "classOscProb_1_1PMNS__TaylorExp.html#adcaa57dfd0ba662bf22bd20065e5c70a", null ],
     [ "RotateState", "classOscProb_1_1PMNS__TaylorExp.html#ae52554477ad3250daa5adb8c32cab0b4", null ],
     [ "SetAngle", "classOscProb_1_1PMNS__TaylorExp.html#ace7875cf6d3bec161a2b7ed2690aec34", null ],
     [ "SetAtt", "classOscProb_1_1PMNS__TaylorExp.html#aba565962a440d14bee7a2a96d2eca2c5", null ],

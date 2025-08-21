@@ -6,6 +6,6 @@ var searchData=
   ['rotatedensitym_3',['RotateDensityM',['../classOscProb_1_1PMNS__TaylorExp.html#aff3e32f6e43a431bc09624dae5549e1e',1,'OscProb::PMNS_TaylorExp']]],
   ['rotateh_4',['RotateH',['../classOscProb_1_1PMNS__Base.html#a2d0f021378d6c782a88298ae2f734f4c',1,'OscProb::PMNS_Base']]],
   ['rotatek_5',['rotateK',['../classOscProb_1_1PMNS__TaylorExp.html#a6f23b885d257c73057514451536593f8',1,'OscProb::PMNS_TaylorExp']]],
-  ['rotates_6',['rotateS',['../classOscProb_1_1PMNS__TaylorExp.html#a1c3de148a6f5ee459e971b0fbbb8ca7b',1,'OscProb::PMNS_TaylorExp']]],
+  ['rotates_6',['rotateS',['../classOscProb_1_1PMNS__TaylorExp.html#adcaa57dfd0ba662bf22bd20065e5c70a',1,'OscProb::PMNS_TaylorExp']]],
   ['rotatestate_7',['RotateState',['../classOscProb_1_1PMNS__Base.html#ae52554477ad3250daa5adb8c32cab0b4',1,'OscProb::PMNS_Base::RotateState()'],['../classOscProb_1_1PMNS__DensityMatrix.html#a8603996785dadacb55bd85558622464c',1,'OscProb::PMNS_DensityMatrix::RotateState()'],['../classOscProb_1_1PMNS__OQS.html#adba7d7bdd7fb38513a099173c69b8b3c',1,'OscProb::PMNS_OQS::RotateState()']]]
 ];
