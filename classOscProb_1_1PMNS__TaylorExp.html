@@ -324,8 +324,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a16d38a5a8f23d7f0e3d6fc1a9374acc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6d6bdcf018f47724ed6598fa8b27c07"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceOscProb.html#a93a204f5324b67ab69907f71b1d8f700">vectorD</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#aa6d6bdcf018f47724ed6598fa8b27c07">GetSamplePoints</a> (double E, double cosT, double dcosT)</td></tr>
 <tr class="separator:aa6d6bdcf018f47724ed6598fa8b27c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ad148512a6a8c6fc90d162e2d880458"><td class="memItemLeft" align="right" valign="top">virtual vector&lt; <a class="el" href="namespaceOscProb.html#a93a204f5324b67ab69907f71b1d8f700">vectorD</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#a2ad148512a6a8c6fc90d162e2d880458">GetSamplePoints</a> (double InvE, double dInvE, double cosT, double dcosT)</td></tr>
-<tr class="separator:a2ad148512a6a8c6fc90d162e2d880458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04acecf25778aad7375060ce1d1e89bb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceOscProb.html#aa43d1e6e97b6dcad3a6cbbd7decbf0c6">matrixD</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#a04acecf25778aad7375060ce1d1e89bb">GetSamplePoints</a> (double InvE, double dInvE, double cosT, double dcosT)</td></tr>
+<tr class="separator:a04acecf25778aad7375060ce1d1e89bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7e0dfa01db33758cdde2aebf85353ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#ab7e0dfa01db33758cdde2aebf85353ce">BuildKE</a> (double L)</td></tr>
 <tr class="memdesc:ab7e0dfa01db33758cdde2aebf85353ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">build K matrix for the inverse of energy in mass basis  <a href="classOscProb_1_1PMNS__TaylorExp.html#ab7e0dfa01db33758cdde2aebf85353ce">More...</a><br /></td></tr>
 <tr class="separator:ab7e0dfa01db33758cdde2aebf85353ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3648,8 +3648,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2ad148512a6a8c6fc90d162e2d880458" name="a2ad148512a6a8c6fc90d162e2d880458"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ad148512a6a8c6fc90d162e2d880458">&#9670;&nbsp;</a></span>GetSamplePoints() <span class="overload">[2/3]</span></h2>
+<a id="a04acecf25778aad7375060ce1d1e89bb" name="a04acecf25778aad7375060ce1d1e89bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04acecf25778aad7375060ce1d1e89bb">&#9670;&nbsp;</a></span>GetSamplePoints() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3658,7 +3658,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt; <a class="el" href="namespaceOscProb.html#a93a204f5324b67ab69907f71b1d8f700">vectorD</a> &gt; PMNS_TaylorExp::GetSamplePoints </td>
+          <td class="memname"><a class="el" href="namespaceOscProb.html#aa43d1e6e97b6dcad3a6cbbd7decbf0c6">matrixD</a> PMNS_TaylorExp::GetSamplePoints </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>InvE</em>, </td>
@@ -3706,19 +3706,19 @@ Static Protected Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  957</span>  <span class="comment">//cout&lt;&lt;&quot;sans ceil = &quot;&lt;&lt;20 * pow(E , -0.5) * pow( abs(dcosT / cosT), 0.8)  /  sqrt(fAvgProbPrec / 1e-4)&lt;&lt;endl;</span></div>
 <div class="line"><span class="lineno">  958</span> </div>
 <div class="line"><span class="lineno">  959</span>  <span class="comment">// A vector to store sample points</span></div>
-<div class="line"><span class="lineno">  960</span>  <a class="code hl_typedef" href="namespaceOscProb.html#a93a204f5324b67ab69907f71b1d8f700">vectorD</a> Samples;</div>
-<div class="line"><span class="lineno">  961</span>  Samples.push_back(dcosT / n_div);</div>
-<div class="line"><span class="lineno">  962</span> </div>
-<div class="line"><span class="lineno">  963</span>  <span class="comment">// Loop over sub-divisions</span></div>
-<div class="line"><span class="lineno">  964</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> k = 0; k &lt; n_div; k++) {</div>
-<div class="line"><span class="lineno">  965</span>    <span class="comment">// Define sub-division center and width</span></div>
-<div class="line"><span class="lineno">  966</span>    <span class="keywordtype">double</span> bctr = cosT - dcosT / 2 + (k + 0.5) * dcosT / n_div;</div>
-<div class="line"><span class="lineno">  967</span>   </div>
-<div class="line"><span class="lineno">  968</span>    Samples.push_back(bctr);</div>
-<div class="line"><span class="lineno">  969</span> </div>
-<div class="line"><span class="lineno">  970</span>  } <span class="comment">// End of loop over sub-divisions</span></div>
-<div class="line"><span class="lineno">  971</span> </div>
-<div class="line"><span class="lineno">  972</span>  <span class="comment">// Return all sample points</span></div>
+<div class="line"><span class="lineno">  960</span>  <a class="code hl_typedef" href="namespaceOscProb.html#aa43d1e6e97b6dcad3a6cbbd7decbf0c6">matrixD</a>  Samples;</div>
+<div class="line"><span class="lineno">  961</span>  <span class="comment">/*Samples.push_back(dcosT / n_div);</span></div>
+<div class="line"><span class="lineno">  962</span><span class="comment"></span> </div>
+<div class="line"><span class="lineno">  963</span><span class="comment">  // Loop over sub-divisions</span></div>
+<div class="line"><span class="lineno">  964</span><span class="comment">  for (int k = 0; k &lt; n_div; k++) {</span></div>
+<div class="line"><span class="lineno">  965</span><span class="comment">    // Define sub-division center and width</span></div>
+<div class="line"><span class="lineno">  966</span><span class="comment">    double bctr = cosT - dcosT / 2 + (k + 0.5) * dcosT / n_div;</span></div>
+<div class="line"><span class="lineno">  967</span><span class="comment">   </span></div>
+<div class="line"><span class="lineno">  968</span><span class="comment">    Samples.push_back(bctr);</span></div>
+<div class="line"><span class="lineno">  969</span><span class="comment"></span> </div>
+<div class="line"><span class="lineno">  970</span><span class="comment">  } // End of loop over sub-divisions</span></div>
+<div class="line"><span class="lineno">  971</span><span class="comment"></span> </div>
+<div class="line"><span class="lineno">  972</span><span class="comment">  // Return all sample points*/</span></div>
 <div class="line"><span class="lineno">  973</span>  <span class="keywordflow">return</span> Samples;</div>
 <div class="line"><span class="lineno">  974</span>}</div>
 </div><!-- fragment -->
