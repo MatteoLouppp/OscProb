@@ -43,7 +43,7 @@ var classOscProb_1_1PMNS__TaylorExp =
     [ "GetPremLayers", "classOscProb_1_1PMNS__TaylorExp.html#a5bf7004529d0f1aa175668bc972557fc", null ],
     [ "GetProbVector", "classOscProb_1_1PMNS__TaylorExp.html#afc8c5d0779b2cd8415c6a58416ed197e", null ],
     [ "GetSamplePoints", "classOscProb_1_1PMNS__TaylorExp.html#aa6d6bdcf018f47724ed6598fa8b27c07", null ],
-    [ "GetSamplePoints", "classOscProb_1_1PMNS__TaylorExp.html#a04acecf25778aad7375060ce1d1e89bb", null ],
+    [ "GetSamplePoints", "classOscProb_1_1PMNS__TaylorExp.html#a9af0be5d3034cca256fa797c2ac5ab06", null ],
     [ "GetSamplePoints", "classOscProb_1_1PMNS__TaylorExp.html#a16d38a5a8f23d7f0e3d6fc1a9374acc5", null ],
     [ "GetSortedIndices", "classOscProb_1_1PMNS__TaylorExp.html#af1fb40562abbdb8d193249ae628a630d", null ],
     [ "HadamardProduct", "classOscProb_1_1PMNS__TaylorExp.html#a17b43c93d2f4f2a680ca54cf855cd65e", null ],
