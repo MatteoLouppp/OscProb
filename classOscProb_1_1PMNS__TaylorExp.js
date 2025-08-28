@@ -76,7 +76,7 @@ var classOscProb_1_1PMNS__TaylorExp =
     [ "PropagatePathTaylor", "classOscProb_1_1PMNS__TaylorExp.html#a61428f9d85485b5e452355525e77e686", null ],
     [ "PropagateTaylor", "classOscProb_1_1PMNS__TaylorExp.html#ac77588c80c02dfa9a156abae0254a5de", null ],
     [ "ResetToFlavour", "classOscProb_1_1PMNS__TaylorExp.html#ac0d4bf8ff1318ef96d3dafa62e0cec25", null ],
-    [ "RotateDensityM", "classOscProb_1_1PMNS__TaylorExp.html#a99e770b619475c90f309dc2d5c2aa794", null ],
+    [ "RotateDensityM", "classOscProb_1_1PMNS__TaylorExp.html#a8a7e1046be72ac479884b8f551a7a12b", null ],
     [ "RotateH", "classOscProb_1_1PMNS__TaylorExp.html#a2d0f021378d6c782a88298ae2f734f4c", null ],
     [ "rotateK", "classOscProb_1_1PMNS__TaylorExp.html#a1aa19e8e75d2d0cafe2264f7bfcb36a9", null ],
     [ "rotateS", "classOscProb_1_1PMNS__TaylorExp.html#adcaa57dfd0ba662bf22bd20065e5c70a", null ],

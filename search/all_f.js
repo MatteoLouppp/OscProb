@@ -11,7 +11,7 @@ var searchData=
   ['recalculate_8',['Recalculate',['../structOscProb_1_1TrajConstants.html#aea9fd40eb64ccf33dd796f46261dc596',1,'OscProb::TrajConstants']]],
   ['recordlatlonbincrossings_9',['RecordLatLonBinCrossings',['../classOscProb_1_1EarthModelBinned.html#a4d35fc1df9d15f0c4c85b08bb7ab597f',1,'OscProb::EarthModelBinned']]],
   ['resettoflavour_10',['ResetToFlavour',['../classOscProb_1_1PMNS__Base.html#ac0d4bf8ff1318ef96d3dafa62e0cec25',1,'OscProb::PMNS_Base::ResetToFlavour()'],['../classOscProb_1_1PMNS__DensityMatrix.html#a44b8763adbdb9f6b7914ea89f432b0a1',1,'OscProb::PMNS_DensityMatrix::ResetToFlavour()']]],
-  ['rotatedensitym_11',['RotateDensityM',['../classOscProb_1_1PMNS__TaylorExp.html#a99e770b619475c90f309dc2d5c2aa794',1,'OscProb::PMNS_TaylorExp']]],
+  ['rotatedensitym_11',['RotateDensityM',['../classOscProb_1_1PMNS__TaylorExp.html#a8a7e1046be72ac479884b8f551a7a12b',1,'OscProb::PMNS_TaylorExp']]],
   ['rotateh_12',['RotateH',['../classOscProb_1_1PMNS__Base.html#a2d0f021378d6c782a88298ae2f734f4c',1,'OscProb::PMNS_Base']]],
   ['rotatek_13',['rotateK',['../classOscProb_1_1PMNS__TaylorExp.html#a1aa19e8e75d2d0cafe2264f7bfcb36a9',1,'OscProb::PMNS_TaylorExp']]],
   ['rotates_14',['rotateS',['../classOscProb_1_1PMNS__TaylorExp.html#adcaa57dfd0ba662bf22bd20065e5c70a',1,'OscProb::PMNS_TaylorExp']]],
