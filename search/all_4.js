@@ -13,5 +13,8 @@ var searchData=
   ['eigenpoint_2eh_10',['EigenPoint.h',['../EigenPoint_8h.html',1,'']]],
   ['err_5fmessage_11',['err_message',['../structOscProb_1_1EarthModelBinned_1_1LonBinInfo.html#ab207194fcd42f113237943d99b6c1ca6',1,'OscProb::EarthModelBinned::LonBinInfo']]],
   ['error_12',['error',['../structOscProb_1_1EarthModelBinned_1_1LonBinInfo.html#a8acd4e4d736c1ef07795368b4ffb4bbc',1,'OscProb::EarthModelBinned::LonBinInfo']]],
-  ['exceptions_2eh_13',['exceptions.h',['../exceptions_8h.html',1,'']]]
+  ['exceptions_2eh_13',['exceptions.h',['../exceptions_8h.html',1,'']]],
+  ['extrapolationprob_14',['ExtrapolationProb',['../classOscProb_1_1PMNS__TaylorExp.html#a84963a9aafe76dabc82a583ad0ee57ee',1,'OscProb::PMNS_TaylorExp']]],
+  ['extrapolationprobcost_15',['ExtrapolationProbCosT',['../classOscProb_1_1PMNS__TaylorExp.html#a15af65ba37552025852e4b387e653fbc',1,'OscProb::PMNS_TaylorExp']]],
+  ['extrapolationprobloe_16',['ExtrapolationProbLoE',['../classOscProb_1_1PMNS__TaylorExp.html#a6bea964334515567dfcf80a1ef61c38a',1,'OscProb::PMNS_TaylorExp']]]
 ];

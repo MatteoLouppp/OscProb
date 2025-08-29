@@ -139,12 +139,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8fda1ef9d05f88c56f75e6ce6d3cf58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad50519386be34b349b31642cf07598fb"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#ad50519386be34b349b31642cf07598fb">AvgProbLoE</a> (int flvi, int flvf, double LoE, double dLoE, double cosT, double dcosT)</td></tr>
 <tr class="separator:ad50519386be34b349b31642cf07598fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dcdc7874e468687ca9d53a3e39c51a2"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#a1dcdc7874e468687ca9d53a3e39c51a2">InterpolationEnergy</a> (int flvi, int flvf, double E, double dE)</td></tr>
-<tr class="separator:a1dcdc7874e468687ca9d53a3e39c51a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41b0a0ab11b1ac2cda1a7b91bf1cc898"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#a41b0a0ab11b1ac2cda1a7b91bf1cc898">InterpolationEnergyLoE</a> (int flvi, int flvf, double LoE, double dLoE)</td></tr>
-<tr class="separator:a41b0a0ab11b1ac2cda1a7b91bf1cc898"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4a7cef16a1c51d2f4452e659a3f43e2"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#ad4a7cef16a1c51d2f4452e659a3f43e2">InterpolationCosT</a> (int flvi, int flvf, double cosT, double dcosT)</td></tr>
-<tr class="separator:ad4a7cef16a1c51d2f4452e659a3f43e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84963a9aafe76dabc82a583ad0ee57ee"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#a84963a9aafe76dabc82a583ad0ee57ee">ExtrapolationProb</a> (int flvi, int flvf, double E, double dE)</td></tr>
+<tr class="separator:a84963a9aafe76dabc82a583ad0ee57ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bea964334515567dfcf80a1ef61c38a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#a6bea964334515567dfcf80a1ef61c38a">ExtrapolationProbLoE</a> (int flvi, int flvf, double LoE, double dLoE)</td></tr>
+<tr class="separator:a6bea964334515567dfcf80a1ef61c38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15af65ba37552025852e4b387e653fbc"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#a15af65ba37552025852e4b387e653fbc">ExtrapolationProbCosT</a> (int flvi, int flvf, double cosT, double dcosT)</td></tr>
+<tr class="separator:a15af65ba37552025852e4b387e653fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72cd5d08922bf074dadc3eb9b32da67a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#a72cd5d08922bf074dadc3eb9b32da67a">AvgProb</a> (<a class="el" href="namespaceOscProb.html#a91f46d70c79f25dac1a66b7b6dc7605c">vectorC</a> nu_in, int flvf, double E, double dE=0)</td></tr>
 <tr class="memdesc:a72cd5d08922bf074dadc3eb9b32da67a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the average probability over a bin of energy.  <a href="classOscProb_1_1PMNS__TaylorExp.html#a72cd5d08922bf074dadc3eb9b32da67a">More...</a><br /></td></tr>
 <tr class="separator:a72cd5d08922bf074dadc3eb9b32da67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -367,7 +367,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a17b43c93d2f4f2a680ca54cf855cd65e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#a17b43c93d2f4f2a680ca54cf855cd65e">HadamardProduct</a> (<a class="el" href="namespaceOscProb.html#a93a204f5324b67ab69907f71b1d8f700">vectorD</a> lambda, double dbin)</td></tr>
 <tr class="separator:a17b43c93d2f4f2a680ca54cf855cd65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac699dd147a6aa72ea51ea328c279777f"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html#ac699dd147a6aa72ea51ea328c279777f">AvgFormulaExtrapolation</a> (int flvi, int flvf, double dbin, <a class="el" href="namespaceOscProb.html#a93a204f5324b67ab69907f71b1d8f700">vectorD</a> flambda, <a class="el" href="namespaceOscProb.html#aeb338ac53fcdff178797945ff5e19137">matrixC</a> fV)</td></tr>
-<tr class="memdesc:ac699dd147a6aa72ea51ea328c279777f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Formula for the interpolation.  <a href="classOscProb_1_1PMNS__TaylorExp.html#ac699dd147a6aa72ea51ea328c279777f">More...</a><br /></td></tr>
+<tr class="memdesc:ac699dd147a6aa72ea51ea328c279777f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Formula for the extrapolation of probability.  <a href="classOscProb_1_1PMNS__TaylorExp.html#ac699dd147a6aa72ea51ea328c279777f">More...</a><br /></td></tr>
 <tr class="separator:ac699dd147a6aa72ea51ea328c279777f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16248082308f9d2c332ebf1be0aa90c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscProb_1_1PMNS__Fast.html#a16248082308f9d2c332ebf1be0aa90c3">UpdateHam</a> ()</td></tr>
 <tr class="memdesc:a16248082308f9d2c332ebf1be0aa90c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the full Hamiltonian.  <a href="classOscProb_1_1PMNS__Fast.html#a16248082308f9d2c332ebf1be0aa90c3">More...</a><br /></td></tr>
@@ -1373,7 +1373,7 @@ Static Protected Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="PMNS__TaylorExp_8h_source.html#l00161">fevolutionMatrixS</a>, <a class="el" href="PMNS__Base_8h_source.html#l00277">OscProb::PMNS_Base::fNumNus</a>, and <a class="el" href="PMNS__Base_8cxx_source.html#l01058">OscProb::PMNS_Base::P()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">InterpolationEnergy()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">ExtrapolationProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>.</p>
 
 </div>
 </div>
@@ -3146,6 +3146,263 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a84963a9aafe76dabc82a583ad0ee57ee" name="a84963a9aafe76dabc82a583ad0ee57ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84963a9aafe76dabc82a583ad0ee57ee">&#9670;&nbsp;</a></span>ExtrapolationProb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double PMNS_TaylorExp::ExtrapolationProb </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flvi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flvf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>E</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dE</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Compute the probability of flvi going to <br  />
+ flvf for an energy E+dE</p>
+<p >Compute the propability for flvi going to flvf for an energy E+dE using a first order Taylor expansion from a reference energy E.</p>
+<p >Flavours are: </p><pre>
+  0 = nue, 1 = numu, 2 = nutau
+  3 = sterile_1, 4 = sterile_2, etc.
+</pre><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flvi</td><td>- The neutrino starting flavour. </td></tr>
+    <tr><td class="paramname">flvf</td><td>- The neutrino final flavour. </td></tr>
+    <tr><td class="paramname">E</td><td>- The reference energy in GeV </td></tr>
+    <tr><td class="paramname">dE</td><td>- The energy variation in GeV</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Neutrino oscillation probability </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">1183</a> of file <a class="el" href="PMNS__TaylorExp_8cxx_source.html">PMNS_TaylorExp.cxx</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1184</span>{</div>
+<div class="line"><span class="lineno"> 1185</span>    <span class="comment">// reset K et S et Ve et lambdaE</span></div>
+<div class="line"><span class="lineno"> 1186</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#a7f4323b6137760dd931868413c0fe61d">InitializeTaylorsVectors</a>();</div>
+<div class="line"><span class="lineno"> 1187</span> </div>
+<div class="line"><span class="lineno"> 1188</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__Base.html#a95b3b0d0cab5e6a54b5ef99587f837c0">SetEnergy</a>(E);</div>
+<div class="line"><span class="lineno"> 1189</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#af452cc665329421a1c1576c2fed55abb">SetwidthBin</a>( 1 / (E + dE) - 1 / E ,0);</div>
+<div class="line"><span class="lineno"> 1190</span> </div>
+<div class="line"><span class="lineno"> 1191</span>    <span class="comment">//Propagate -&gt; get S and K matrix (on the whole path)</span></div>
+<div class="line"><span class="lineno"> 1192</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac77588c80c02dfa9a156abae0254a5de">PropagateTaylor</a>();</div>
+<div class="line"><span class="lineno"> 1193</span> </div>
+<div class="line"><span class="lineno"> 1194</span>    <span class="comment">//DiagolK -&gt; get VE and lambdaE</span></div>
+<div class="line"><span class="lineno"> 1195</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ace01a1347c26ea347dcd3606f4def5b8">SolveK</a>(<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#a2c82ecedeabed6b3aad9751b74276fe6">fKInvE</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ada2d3e318ae28ef452c38e8b38a5043e">flambdaInvE</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#af1a8b337e2e3def0787849a2d9c69edb">fVInvE</a>);</div>
+<div class="line"><span class="lineno"> 1196</span> </div>
+<div class="line"><span class="lineno"> 1197</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac699dd147a6aa72ea51ea328c279777f">AvgFormulaExtrapolation</a>(flvi,flvf,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ac819132e8721750d1adbcd4044b2d205">fdInvE</a>/<a class="code hl_variable" href="classOscProb_1_1PMNS__Base.html#ad36a0a6bf58d6ec093d3947784bd89e9">kGeV2eV</a>, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ada2d3e318ae28ef452c38e8b38a5043e">flambdaInvE</a>, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#af1a8b337e2e3def0787849a2d9c69edb">fVInvE</a>);</div>
+<div class="line"><span class="lineno"> 1198</span>}</div>
+<div class="ttc" id="aclassOscProb_1_1PMNS__TaylorExp_html_ac699dd147a6aa72ea51ea328c279777f"><div class="ttname"><a href="classOscProb_1_1PMNS__TaylorExp.html#ac699dd147a6aa72ea51ea328c279777f">OscProb::PMNS_TaylorExp::AvgFormulaExtrapolation</a></div><div class="ttdeci">virtual double AvgFormulaExtrapolation(int flvi, int flvf, double dbin, vectorD flambda, matrixC fV)</div><div class="ttdoc">Formula for the extrapolation of probability.</div><div class="ttdef"><b>Definition:</b> <a href="PMNS__TaylorExp_8cxx_source.html#l01126">PMNS_TaylorExp.cxx:1126</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01126">AvgFormulaExtrapolation()</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00167">fdInvE</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00169">fKInvE</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00170">flambdaInvE</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00171">fVInvE</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, <a class="el" href="PMNS__Base_8h_source.html#l00217">OscProb::PMNS_Base::kGeV2eV</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00386">PropagateTaylor()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00226">OscProb::PMNS_Base::SetEnergy()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00098">SetwidthBin()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00456">SolveK()</a>.</p>
+
+</div>
+</div>
+<a id="a15af65ba37552025852e4b387e653fbc" name="a15af65ba37552025852e4b387e653fbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15af65ba37552025852e4b387e653fbc">&#9670;&nbsp;</a></span>ExtrapolationProbCosT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double PMNS_TaylorExp::ExtrapolationProbCosT </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flvi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flvf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cosT</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dcosT</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Compute the probability of flvi going to <br  />
+ flvf for an angle cosT+dcosT</p>
+<p >Compute the propability for flvi going to flvf for an angle cosT+dcosT using a first order Taylor expansion from a reference angle cosT.</p>
+<p >IMPORTANT: The function GetPremLayers must be used in the macro file to make this function work. The argument for GetPremLayers must be premModel.GetPremLayers().</p>
+<p >Flavours are: </p><pre>
+  0 = nue, 1 = numu, 2 = nutau
+  3 = sterile_1, 4 = sterile_2, etc.
+</pre><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flvi</td><td>- The neutrino starting flavour. </td></tr>
+    <tr><td class="paramname">flvf</td><td>- The neutrino final flavour. </td></tr>
+    <tr><td class="paramname">cosT</td><td>- The reference angle </td></tr>
+    <tr><td class="paramname">dcosT</td><td>- The angle variation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Neutrino oscillation probability </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">1260</a> of file <a class="el" href="PMNS__TaylorExp_8cxx_source.html">PMNS_TaylorExp.cxx</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1261</span>{</div>
+<div class="line"><span class="lineno"> 1262</span>    <span class="comment">// reset K et S et Ve et lambdaE</span></div>
+<div class="line"><span class="lineno"> 1263</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#a7f4323b6137760dd931868413c0fe61d">InitializeTaylorsVectors</a>();</div>
+<div class="line"><span class="lineno"> 1264</span> </div>
+<div class="line"><span class="lineno"> 1265</span>    <span class="comment">//SetEnergy(E);</span></div>
+<div class="line"><span class="lineno"> 1266</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#a9910a76b47a7cfe670b59ee375e30c19">SetCosT</a>(cosT);</div>
+<div class="line"><span class="lineno"> 1267</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#af452cc665329421a1c1576c2fed55abb">SetwidthBin</a>(0,dcosT);</div>
+<div class="line"><span class="lineno"> 1268</span> </div>
+<div class="line"><span class="lineno"> 1269</span>    <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#a63e14b194041aef9f1bbc4c80d14b93a">fminRsq</a>  = pow(<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#aa57e9ae0a2888b3ccd47ee21d87ab5b1">fDetRadius</a> * sqrt(1 - cosT * cosT) , 2);</div>
+<div class="line"><span class="lineno"> 1270</span> </div>
+<div class="line"><span class="lineno"> 1271</span>    <span class="comment">//Propagate -&gt; get S and K matrix (on the whole path)</span></div>
+<div class="line"><span class="lineno"> 1272</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac77588c80c02dfa9a156abae0254a5de">PropagateTaylor</a>();</div>
+<div class="line"><span class="lineno"> 1273</span> </div>
+<div class="line"><span class="lineno"> 1274</span>    <span class="comment">//DiagolK -&gt; get VE and lambdaE</span></div>
+<div class="line"><span class="lineno"> 1275</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ace01a1347c26ea347dcd3606f4def5b8">SolveK</a>(<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ad3142055738fdfd610f984075eb56e0f">fKcosT</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#adc2a14508b498e2f01fe3ef2c837a21f">flambdaCosT</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#aadb2938b99e9546c484255d8f1347013">fVcosT</a>);</div>
+<div class="line"><span class="lineno"> 1276</span> </div>
+<div class="line"><span class="lineno"> 1277</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac699dd147a6aa72ea51ea328c279777f">AvgFormulaExtrapolation</a>(flvi,flvf,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#a943769ad877c73313b732b7639766e61">fdcosT</a>, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#adc2a14508b498e2f01fe3ef2c837a21f">flambdaCosT</a>, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#aadb2938b99e9546c484255d8f1347013">fVcosT</a>);</div>
+<div class="line"><span class="lineno"> 1278</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01126">AvgFormulaExtrapolation()</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00174">fdcosT</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00185">fDetRadius</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00176">fKcosT</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00177">flambdaCosT</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00186">fminRsq</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00178">fVcosT</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00386">PropagateTaylor()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00086">SetCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00098">SetwidthBin()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00456">SolveK()</a>.</p>
+
+</div>
+</div>
+<a id="a6bea964334515567dfcf80a1ef61c38a" name="a6bea964334515567dfcf80a1ef61c38a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bea964334515567dfcf80a1ef61c38a">&#9670;&nbsp;</a></span>ExtrapolationProbLoE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double PMNS_TaylorExp::ExtrapolationProbLoE </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flvi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flvf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>LoE</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dLoE</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Compute the probability of flvi going to <br  />
+ flvf at LoE+dLoE</p>
+<p >Compute the propability for flvi going to flvf for an energy LoE+dLoE using a first order Taylor expansion from a reference value LoE.</p>
+<p >Flavours are: </p><pre>
+  0 = nue, 1 = numu, 2 = nutau
+  3 = sterile_1, 4 = sterile_2, etc.
+</pre><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flvi</td><td>- The neutrino starting flavour. </td></tr>
+    <tr><td class="paramname">flvf</td><td>- The neutrino final flavour. </td></tr>
+    <tr><td class="paramname">LoE</td><td>- The reference energy in GeV </td></tr>
+    <tr><td class="paramname">dLoE</td><td>- The energy variation in GeV</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Neutrino oscillation probability </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">1218</a> of file <a class="el" href="PMNS__TaylorExp_8cxx_source.html">PMNS_TaylorExp.cxx</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1219</span>{</div>
+<div class="line"><span class="lineno"> 1220</span>    <span class="comment">// reset K et S et Ve et lambdaE</span></div>
+<div class="line"><span class="lineno"> 1221</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#a7f4323b6137760dd931868413c0fe61d">InitializeTaylorsVectors</a>();</div>
+<div class="line"><span class="lineno"> 1222</span> </div>
+<div class="line"><span class="lineno"> 1223</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__Base.html#aabfeac4ff7206324565272c57b8639d1">SetCurPath</a>(<a class="code hl_function" href="namespaceOscProb.html#ac4f1bdf84ce6aa7a16b6d3c91272d428">AvgPath</a>(<a class="code hl_variable" href="classOscProb_1_1PMNS__Base.html#a273d49f3c5390e7bce624c97c4da5677">fNuPaths</a>));</div>
+<div class="line"><span class="lineno"> 1224</span>    <span class="keywordtype">double</span> L = <a class="code hl_variable" href="classOscProb_1_1PMNS__Base.html#a8f8fb0cd89fb6e8eb0167eb2c752bbd0">fPath</a>.<a class="code hl_variable" href="structOscProb_1_1NuPath.html#af22660894b6e25cf835500381b155557">length</a>;</div>
+<div class="line"><span class="lineno"> 1225</span> </div>
+<div class="line"><span class="lineno"> 1226</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__Base.html#a95b3b0d0cab5e6a54b5ef99587f837c0">SetEnergy</a>(L / LoE);</div>
+<div class="line"><span class="lineno"> 1227</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#af452cc665329421a1c1576c2fed55abb">SetwidthBin</a>(dLoE / L,0);</div>
+<div class="line"><span class="lineno"> 1228</span> </div>
+<div class="line"><span class="lineno"> 1229</span>    <span class="comment">//Propagate -&gt; get S and K matrix (on the whole path)</span></div>
+<div class="line"><span class="lineno"> 1230</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac77588c80c02dfa9a156abae0254a5de">PropagateTaylor</a>();</div>
+<div class="line"><span class="lineno"> 1231</span> </div>
+<div class="line"><span class="lineno"> 1232</span>    <span class="comment">//DiagolK -&gt; get VE and lambdaE</span></div>
+<div class="line"><span class="lineno"> 1233</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ace01a1347c26ea347dcd3606f4def5b8">SolveK</a>(<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#a2c82ecedeabed6b3aad9751b74276fe6">fKInvE</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ada2d3e318ae28ef452c38e8b38a5043e">flambdaInvE</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#af1a8b337e2e3def0787849a2d9c69edb">fVInvE</a>);</div>
+<div class="line"><span class="lineno"> 1234</span> </div>
+<div class="line"><span class="lineno"> 1235</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac699dd147a6aa72ea51ea328c279777f">AvgFormulaExtrapolation</a>(flvi,flvf,dLoE*<a class="code hl_variable" href="classOscProb_1_1PMNS__Base.html#ad36a0a6bf58d6ec093d3947784bd89e9">kGeV2eV</a>/L, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ada2d3e318ae28ef452c38e8b38a5043e">flambdaInvE</a>, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#af1a8b337e2e3def0787849a2d9c69edb">fVInvE</a>);</div>
+<div class="line"><span class="lineno"> 1236</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01126">AvgFormulaExtrapolation()</a>, <a class="el" href="NuPath_8cxx_source.html#l00027">OscProb::AvgPath()</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00169">fKInvE</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00170">flambdaInvE</a>, <a class="el" href="PMNS__Base_8h_source.html#l00295">OscProb::PMNS_Base::fNuPaths</a>, <a class="el" href="PMNS__Base_8h_source.html#l00296">OscProb::PMNS_Base::fPath</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00171">fVInvE</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, <a class="el" href="PMNS__Base_8h_source.html#l00217">OscProb::PMNS_Base::kGeV2eV</a>, <a class="el" href="NuPath_8h_source.html#l00078">OscProb::NuPath::length</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00386">PropagateTaylor()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00274">OscProb::PMNS_Base::SetCurPath()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00226">OscProb::PMNS_Base::SetEnergy()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00098">SetwidthBin()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00456">SolveK()</a>.</p>
+
+</div>
+</div>
 <a id="a785c37fcea974628623c8881bb0fbbf9" name="a785c37fcea974628623c8881bb0fbbf9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a785c37fcea974628623c8881bb0fbbf9">&#9670;&nbsp;</a></span>FillCache()</h2>
 
@@ -4108,7 +4365,7 @@ Static Protected Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="PMNS__TaylorExp_8h_source.html#l00180">fdensityMatrix</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00185">fDetRadius</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00184">fdl</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00161">fevolutionMatrixS</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00176">fKcosT</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00165">fKflavor</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00169">fKInvE</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00164">fKmass</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00177">flambdaCosT</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00170">flambdaInvE</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00183">flayer</a>, <a class="el" href="PMNS__Base_8h_source.html#l00277">OscProb::PMNS_Base::fNumNus</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00187">fPremLayers</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00163">fSflavor</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00178">fVcosT</a>, and <a class="el" href="PMNS__TaylorExp_8h_source.html#l00171">fVInvE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">InterpolationEnergy()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00027">PMNS_TaylorExp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">ExtrapolationProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00027">PMNS_TaylorExp()</a>.</p>
 
 </div>
 </div>
@@ -4157,263 +4414,6 @@ Static Protected Attributes</h2></td></tr>
 <div class="ttc" id="aclassOscProb_1_1PMNS__Base_html_aafed7b62c249ec811201cbcbc58e0866"><div class="ttname"><a href="classOscProb_1_1PMNS__Base.html#aafed7b62c249ec811201cbcbc58e0866">OscProb::PMNS_Base::fPhases</a></div><div class="ttdeci">vectorC fPhases</div><div class="ttdoc">Buffer for oscillation phases.</div><div class="ttdef"><b>Definition:</b> <a href="PMNS__Base_8h_source.html#l00286">PMNS_Base.h:286</a></div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="PMNS__Base_8cxx_source.html#l00047">OscProb::PMNS_Base::PMNS_Base()</a>.</p>
-
-</div>
-</div>
-<a id="ad4a7cef16a1c51d2f4452e659a3f43e2" name="ad4a7cef16a1c51d2f4452e659a3f43e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4a7cef16a1c51d2f4452e659a3f43e2">&#9670;&nbsp;</a></span>InterpolationCosT()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double PMNS_TaylorExp::InterpolationCosT </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>flvi</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>flvf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>cosT</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>dcosT</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Compute the probability of flvi going to <br  />
- flvf for an angle cosT+dcosT</p>
-<p >Compute the propability for flvi going to flvf for an angle cosT+dcosT using a first order Taylor expansion from a reference angle cosT.</p>
-<p >IMPORTANT: The function GetPremLayers must be used in the macro file to make this function work. The argument for GetPremLayers must be premModel.GetPremLayers().</p>
-<p >Flavours are: </p><pre>
-  0 = nue, 1 = numu, 2 = nutau
-  3 = sterile_1, 4 = sterile_2, etc.
-</pre><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">flvi</td><td>- The neutrino starting flavour. </td></tr>
-    <tr><td class="paramname">flvf</td><td>- The neutrino final flavour. </td></tr>
-    <tr><td class="paramname">cosT</td><td>- The reference angle </td></tr>
-    <tr><td class="paramname">dcosT</td><td>- The angle variation</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Neutrino oscillation probability </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">1260</a> of file <a class="el" href="PMNS__TaylorExp_8cxx_source.html">PMNS_TaylorExp.cxx</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1261</span>{</div>
-<div class="line"><span class="lineno"> 1262</span>    <span class="comment">// reset K et S et Ve et lambdaE</span></div>
-<div class="line"><span class="lineno"> 1263</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#a7f4323b6137760dd931868413c0fe61d">InitializeTaylorsVectors</a>();</div>
-<div class="line"><span class="lineno"> 1264</span> </div>
-<div class="line"><span class="lineno"> 1265</span>    <span class="comment">//SetEnergy(E);</span></div>
-<div class="line"><span class="lineno"> 1266</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#a9910a76b47a7cfe670b59ee375e30c19">SetCosT</a>(cosT);</div>
-<div class="line"><span class="lineno"> 1267</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#af452cc665329421a1c1576c2fed55abb">SetwidthBin</a>(0,dcosT);</div>
-<div class="line"><span class="lineno"> 1268</span> </div>
-<div class="line"><span class="lineno"> 1269</span>    <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#a63e14b194041aef9f1bbc4c80d14b93a">fminRsq</a>  = pow(<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#aa57e9ae0a2888b3ccd47ee21d87ab5b1">fDetRadius</a> * sqrt(1 - cosT * cosT) , 2);</div>
-<div class="line"><span class="lineno"> 1270</span> </div>
-<div class="line"><span class="lineno"> 1271</span>    <span class="comment">//Propagate -&gt; get S and K matrix (on the whole path)</span></div>
-<div class="line"><span class="lineno"> 1272</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac77588c80c02dfa9a156abae0254a5de">PropagateTaylor</a>();</div>
-<div class="line"><span class="lineno"> 1273</span> </div>
-<div class="line"><span class="lineno"> 1274</span>    <span class="comment">//DiagolK -&gt; get VE and lambdaE</span></div>
-<div class="line"><span class="lineno"> 1275</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ace01a1347c26ea347dcd3606f4def5b8">SolveK</a>(<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ad3142055738fdfd610f984075eb56e0f">fKcosT</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#adc2a14508b498e2f01fe3ef2c837a21f">flambdaCosT</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#aadb2938b99e9546c484255d8f1347013">fVcosT</a>);</div>
-<div class="line"><span class="lineno"> 1276</span> </div>
-<div class="line"><span class="lineno"> 1277</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac699dd147a6aa72ea51ea328c279777f">AvgFormulaExtrapolation</a>(flvi,flvf,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#a943769ad877c73313b732b7639766e61">fdcosT</a>, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#adc2a14508b498e2f01fe3ef2c837a21f">flambdaCosT</a>, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#aadb2938b99e9546c484255d8f1347013">fVcosT</a>);</div>
-<div class="line"><span class="lineno"> 1278</span>}</div>
-<div class="ttc" id="aclassOscProb_1_1PMNS__TaylorExp_html_ac699dd147a6aa72ea51ea328c279777f"><div class="ttname"><a href="classOscProb_1_1PMNS__TaylorExp.html#ac699dd147a6aa72ea51ea328c279777f">OscProb::PMNS_TaylorExp::AvgFormulaExtrapolation</a></div><div class="ttdeci">virtual double AvgFormulaExtrapolation(int flvi, int flvf, double dbin, vectorD flambda, matrixC fV)</div><div class="ttdoc">Formula for the interpolation.</div><div class="ttdef"><b>Definition:</b> <a href="PMNS__TaylorExp_8cxx_source.html#l01126">PMNS_TaylorExp.cxx:1126</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01126">AvgFormulaExtrapolation()</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00174">fdcosT</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00185">fDetRadius</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00176">fKcosT</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00177">flambdaCosT</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00186">fminRsq</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00178">fVcosT</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00386">PropagateTaylor()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00086">SetCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00098">SetwidthBin()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00456">SolveK()</a>.</p>
-
-</div>
-</div>
-<a id="a1dcdc7874e468687ca9d53a3e39c51a2" name="a1dcdc7874e468687ca9d53a3e39c51a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dcdc7874e468687ca9d53a3e39c51a2">&#9670;&nbsp;</a></span>InterpolationEnergy()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double PMNS_TaylorExp::InterpolationEnergy </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>flvi</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>flvf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>E</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>dE</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Compute the probability of flvi going to <br  />
- flvf for an energy E+dE</p>
-<p >Compute the propability for flvi going to flvf for an energy E+dE using a first order Taylor expansion from a reference energy E.</p>
-<p >Flavours are: </p><pre>
-  0 = nue, 1 = numu, 2 = nutau
-  3 = sterile_1, 4 = sterile_2, etc.
-</pre><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">flvi</td><td>- The neutrino starting flavour. </td></tr>
-    <tr><td class="paramname">flvf</td><td>- The neutrino final flavour. </td></tr>
-    <tr><td class="paramname">E</td><td>- The reference energy in GeV </td></tr>
-    <tr><td class="paramname">dE</td><td>- The energy variation in GeV</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Neutrino oscillation probability </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">1183</a> of file <a class="el" href="PMNS__TaylorExp_8cxx_source.html">PMNS_TaylorExp.cxx</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1184</span>{</div>
-<div class="line"><span class="lineno"> 1185</span>    <span class="comment">// reset K et S et Ve et lambdaE</span></div>
-<div class="line"><span class="lineno"> 1186</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#a7f4323b6137760dd931868413c0fe61d">InitializeTaylorsVectors</a>();</div>
-<div class="line"><span class="lineno"> 1187</span> </div>
-<div class="line"><span class="lineno"> 1188</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__Base.html#a95b3b0d0cab5e6a54b5ef99587f837c0">SetEnergy</a>(E);</div>
-<div class="line"><span class="lineno"> 1189</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#af452cc665329421a1c1576c2fed55abb">SetwidthBin</a>( 1 / (E + dE) - 1 / E ,0);</div>
-<div class="line"><span class="lineno"> 1190</span> </div>
-<div class="line"><span class="lineno"> 1191</span>    <span class="comment">//Propagate -&gt; get S and K matrix (on the whole path)</span></div>
-<div class="line"><span class="lineno"> 1192</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac77588c80c02dfa9a156abae0254a5de">PropagateTaylor</a>();</div>
-<div class="line"><span class="lineno"> 1193</span> </div>
-<div class="line"><span class="lineno"> 1194</span>    <span class="comment">//DiagolK -&gt; get VE and lambdaE</span></div>
-<div class="line"><span class="lineno"> 1195</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ace01a1347c26ea347dcd3606f4def5b8">SolveK</a>(<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#a2c82ecedeabed6b3aad9751b74276fe6">fKInvE</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ada2d3e318ae28ef452c38e8b38a5043e">flambdaInvE</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#af1a8b337e2e3def0787849a2d9c69edb">fVInvE</a>);</div>
-<div class="line"><span class="lineno"> 1196</span> </div>
-<div class="line"><span class="lineno"> 1197</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac699dd147a6aa72ea51ea328c279777f">AvgFormulaExtrapolation</a>(flvi,flvf,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ac819132e8721750d1adbcd4044b2d205">fdInvE</a>/<a class="code hl_variable" href="classOscProb_1_1PMNS__Base.html#ad36a0a6bf58d6ec093d3947784bd89e9">kGeV2eV</a>, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ada2d3e318ae28ef452c38e8b38a5043e">flambdaInvE</a>, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#af1a8b337e2e3def0787849a2d9c69edb">fVInvE</a>);</div>
-<div class="line"><span class="lineno"> 1198</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01126">AvgFormulaExtrapolation()</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00167">fdInvE</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00169">fKInvE</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00170">flambdaInvE</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00171">fVInvE</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, <a class="el" href="PMNS__Base_8h_source.html#l00217">OscProb::PMNS_Base::kGeV2eV</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00386">PropagateTaylor()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00226">OscProb::PMNS_Base::SetEnergy()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00098">SetwidthBin()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00456">SolveK()</a>.</p>
-
-</div>
-</div>
-<a id="a41b0a0ab11b1ac2cda1a7b91bf1cc898" name="a41b0a0ab11b1ac2cda1a7b91bf1cc898"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41b0a0ab11b1ac2cda1a7b91bf1cc898">&#9670;&nbsp;</a></span>InterpolationEnergyLoE()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double PMNS_TaylorExp::InterpolationEnergyLoE </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>flvi</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>flvf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>LoE</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>dLoE</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Compute the probability of flvi going to <br  />
- flvf at LoE+dLoE</p>
-<p >Compute the propability for flvi going to flvf for an energy LoE+dLoE using a first order Taylor expansion from a reference value LoE.</p>
-<p >Flavours are: </p><pre>
-  0 = nue, 1 = numu, 2 = nutau
-  3 = sterile_1, 4 = sterile_2, etc.
-</pre><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">flvi</td><td>- The neutrino starting flavour. </td></tr>
-    <tr><td class="paramname">flvf</td><td>- The neutrino final flavour. </td></tr>
-    <tr><td class="paramname">LoE</td><td>- The reference energy in GeV </td></tr>
-    <tr><td class="paramname">dLoE</td><td>- The energy variation in GeV</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Neutrino oscillation probability </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">1218</a> of file <a class="el" href="PMNS__TaylorExp_8cxx_source.html">PMNS_TaylorExp.cxx</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1219</span>{</div>
-<div class="line"><span class="lineno"> 1220</span>    <span class="comment">// reset K et S et Ve et lambdaE</span></div>
-<div class="line"><span class="lineno"> 1221</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#a7f4323b6137760dd931868413c0fe61d">InitializeTaylorsVectors</a>();</div>
-<div class="line"><span class="lineno"> 1222</span> </div>
-<div class="line"><span class="lineno"> 1223</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__Base.html#aabfeac4ff7206324565272c57b8639d1">SetCurPath</a>(<a class="code hl_function" href="namespaceOscProb.html#ac4f1bdf84ce6aa7a16b6d3c91272d428">AvgPath</a>(<a class="code hl_variable" href="classOscProb_1_1PMNS__Base.html#a273d49f3c5390e7bce624c97c4da5677">fNuPaths</a>));</div>
-<div class="line"><span class="lineno"> 1224</span>    <span class="keywordtype">double</span> L = <a class="code hl_variable" href="classOscProb_1_1PMNS__Base.html#a8f8fb0cd89fb6e8eb0167eb2c752bbd0">fPath</a>.<a class="code hl_variable" href="structOscProb_1_1NuPath.html#af22660894b6e25cf835500381b155557">length</a>;</div>
-<div class="line"><span class="lineno"> 1225</span> </div>
-<div class="line"><span class="lineno"> 1226</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__Base.html#a95b3b0d0cab5e6a54b5ef99587f837c0">SetEnergy</a>(L / LoE);</div>
-<div class="line"><span class="lineno"> 1227</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#af452cc665329421a1c1576c2fed55abb">SetwidthBin</a>(dLoE / L,0);</div>
-<div class="line"><span class="lineno"> 1228</span> </div>
-<div class="line"><span class="lineno"> 1229</span>    <span class="comment">//Propagate -&gt; get S and K matrix (on the whole path)</span></div>
-<div class="line"><span class="lineno"> 1230</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac77588c80c02dfa9a156abae0254a5de">PropagateTaylor</a>();</div>
-<div class="line"><span class="lineno"> 1231</span> </div>
-<div class="line"><span class="lineno"> 1232</span>    <span class="comment">//DiagolK -&gt; get VE and lambdaE</span></div>
-<div class="line"><span class="lineno"> 1233</span>    <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ace01a1347c26ea347dcd3606f4def5b8">SolveK</a>(<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#a2c82ecedeabed6b3aad9751b74276fe6">fKInvE</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ada2d3e318ae28ef452c38e8b38a5043e">flambdaInvE</a>,<a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#af1a8b337e2e3def0787849a2d9c69edb">fVInvE</a>);</div>
-<div class="line"><span class="lineno"> 1234</span> </div>
-<div class="line"><span class="lineno"> 1235</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="classOscProb_1_1PMNS__TaylorExp.html#ac699dd147a6aa72ea51ea328c279777f">AvgFormulaExtrapolation</a>(flvi,flvf,dLoE*<a class="code hl_variable" href="classOscProb_1_1PMNS__Base.html#ad36a0a6bf58d6ec093d3947784bd89e9">kGeV2eV</a>/L, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#ada2d3e318ae28ef452c38e8b38a5043e">flambdaInvE</a>, <a class="code hl_variable" href="classOscProb_1_1PMNS__TaylorExp.html#af1a8b337e2e3def0787849a2d9c69edb">fVInvE</a>);</div>
-<div class="line"><span class="lineno"> 1236</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01126">AvgFormulaExtrapolation()</a>, <a class="el" href="NuPath_8cxx_source.html#l00027">OscProb::AvgPath()</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00169">fKInvE</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00170">flambdaInvE</a>, <a class="el" href="PMNS__Base_8h_source.html#l00295">OscProb::PMNS_Base::fNuPaths</a>, <a class="el" href="PMNS__Base_8h_source.html#l00296">OscProb::PMNS_Base::fPath</a>, <a class="el" href="PMNS__TaylorExp_8h_source.html#l00171">fVInvE</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, <a class="el" href="PMNS__Base_8h_source.html#l00217">OscProb::PMNS_Base::kGeV2eV</a>, <a class="el" href="NuPath_8h_source.html#l00078">OscProb::NuPath::length</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00386">PropagateTaylor()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00274">OscProb::PMNS_Base::SetCurPath()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00226">OscProb::PMNS_Base::SetEnergy()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00098">SetwidthBin()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00456">SolveK()</a>.</p>
 
 </div>
 </div>
@@ -5848,7 +5848,7 @@ Static Protected Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="PMNS__Base_8h_source.html#l00295">OscProb::PMNS_Base::fNuPaths</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00396">PropagatePathTaylor()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">InterpolationEnergy()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">ExtrapolationProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>.</p>
 
 </div>
 </div>
@@ -6668,7 +6668,7 @@ Static Protected Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="PMNS__TaylorExp_8h_source.html#l00173">fcosT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>.</p>
 
 </div>
 </div>
@@ -6716,7 +6716,7 @@ Static Protected Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="NuPath_8h_source.html#l00079">OscProb::NuPath::density</a>, <a class="el" href="PMNS__Base_8h_source.html#l00299">OscProb::PMNS_Base::fGotES</a>, <a class="el" href="PMNS__Base_8h_source.html#l00296">OscProb::PMNS_Base::fPath</a>, and <a class="el" href="NuPath_8h_source.html#l00080">OscProb::NuPath::zoa</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__Base_8cxx_source.html#l01643">OscProb::PMNS_Base::AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01900">OscProb::PMNS_Base::AvgProbMatrixLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01791">OscProb::PMNS_Base::AvgProbVectorLoE()</a>, <a class="el" href="PMNS__OQS_8cxx_source.html#l00203">OscProb::PMNS_OQS::BuildHVMB()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01516">OscProb::PMNS_Base::ConvertEtoLoE()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00983">OscProb::PMNS_Base::PropagatePath()</a>, <a class="el" href="PMNS__Decay_8cxx_source.html#l00255">OscProb::PMNS_Decay::PropagatePath()</a>, <a class="el" href="PMNS__Deco_8cxx_source.html#l00251">OscProb::PMNS_Deco::PropagatePath()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00396">PropagatePathTaylor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__Base_8cxx_source.html#l01643">OscProb::PMNS_Base::AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01900">OscProb::PMNS_Base::AvgProbMatrixLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01791">OscProb::PMNS_Base::AvgProbVectorLoE()</a>, <a class="el" href="PMNS__OQS_8cxx_source.html#l00203">OscProb::PMNS_OQS::BuildHVMB()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01516">OscProb::PMNS_Base::ConvertEtoLoE()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00983">OscProb::PMNS_Base::PropagatePath()</a>, <a class="el" href="PMNS__Decay_8cxx_source.html#l00255">OscProb::PMNS_Decay::PropagatePath()</a>, <a class="el" href="PMNS__Deco_8cxx_source.html#l00251">OscProb::PMNS_Deco::PropagatePath()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00396">PropagatePathTaylor()</a>.</p>
 
 </div>
 </div>
@@ -7043,7 +7043,7 @@ The corresponding Dm_31 is set in the class attributes.</p>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="PMNS__Base_8h_source.html#l00292">OscProb::PMNS_Base::fEnergy</a>, and <a class="el" href="PMNS__Base_8h_source.html#l00299">OscProb::PMNS_Base::fGotES</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01643">OscProb::PMNS_Base::AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01900">OscProb::PMNS_Base::AvgProbMatrixLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01791">OscProb::PMNS_Base::AvgProbVectorLoE()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">InterpolationEnergy()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00047">OscProb::PMNS_Base::PMNS_Base()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01138">OscProb::PMNS_Base::Prob()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01439">OscProb::PMNS_Base::ProbMatrix()</a>, and <a class="el" href="PMNS__Base_8cxx_source.html#l01291">OscProb::PMNS_Base::ProbVector()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01643">OscProb::PMNS_Base::AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01900">OscProb::PMNS_Base::AvgProbMatrixLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01791">OscProb::PMNS_Base::AvgProbVectorLoE()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">ExtrapolationProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00047">OscProb::PMNS_Base::PMNS_Base()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01138">OscProb::PMNS_Base::Prob()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01439">OscProb::PMNS_Base::ProbMatrix()</a>, and <a class="el" href="PMNS__Base_8cxx_source.html#l01291">OscProb::PMNS_Base::ProbVector()</a>.</p>
 
 </div>
 </div>
@@ -7764,7 +7764,7 @@ The corresponding Dm_31 is set in the class attributes.</p>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="PMNS__TaylorExp_8h_source.html#l00174">fdcosT</a>, and <a class="el" href="PMNS__TaylorExp_8h_source.html#l00167">fdInvE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">InterpolationEnergy()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00027">PMNS_TaylorExp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">ExtrapolationProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00027">PMNS_TaylorExp()</a>.</p>
 
 </div>
 </div>
@@ -8032,7 +8032,7 @@ We should cite them accordingly</p>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="PMNS__Base_8h_source.html#l00277">OscProb::PMNS_Base::fNumNus</a>, and <a class="el" href="zheevh3_8cxx_source.html#l00031">zheevh3()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">InterpolationEnergy()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">ExtrapolationProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>.</p>
 
 </div>
 </div>
@@ -8292,7 +8292,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8h_source.html#l00174">174</a> of file <a class="el" href="PMNS__TaylorExp_8h_source.html">PMNS_TaylorExp.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00396">PropagatePathTaylor()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00098">SetwidthBin()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00396">PropagatePathTaylor()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00098">SetwidthBin()</a>.</p>
 
 </div>
 </div>
@@ -8370,7 +8370,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8h_source.html#l00185">185</a> of file <a class="el" href="PMNS__TaylorExp_8h_source.html">PMNS_TaylorExp.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00232">LnDerivative()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00232">LnDerivative()</a>.</p>
 
 </div>
 </div>
@@ -8396,7 +8396,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8h_source.html#l00167">167</a> of file <a class="el" href="PMNS__TaylorExp_8h_source.html">PMNS_TaylorExp.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">InterpolationEnergy()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00396">PropagatePathTaylor()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00098">SetwidthBin()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">ExtrapolationProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00396">PropagatePathTaylor()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00098">SetwidthBin()</a>.</p>
 
 </div>
 </div>
@@ -8682,7 +8682,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8h_source.html#l00176">176</a> of file <a class="el" href="PMNS__TaylorExp_8h_source.html">PMNS_TaylorExp.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00396">PropagatePathTaylor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00396">PropagatePathTaylor()</a>.</p>
 
 </div>
 </div>
@@ -8734,7 +8734,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8h_source.html#l00169">169</a> of file <a class="el" href="PMNS__TaylorExp_8h_source.html">PMNS_TaylorExp.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">InterpolationEnergy()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00396">PropagatePathTaylor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">ExtrapolationProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00396">PropagatePathTaylor()</a>.</p>
 
 </div>
 </div>
@@ -8786,7 +8786,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8h_source.html#l00177">177</a> of file <a class="el" href="PMNS__TaylorExp_8h_source.html">PMNS_TaylorExp.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>.</p>
 
 </div>
 </div>
@@ -8812,7 +8812,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8h_source.html#l00170">170</a> of file <a class="el" href="PMNS__TaylorExp_8h_source.html">PMNS_TaylorExp.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">InterpolationEnergy()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">ExtrapolationProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>.</p>
 
 </div>
 </div>
@@ -8890,7 +8890,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8h_source.html#l00186">186</a> of file <a class="el" href="PMNS__TaylorExp_8h_source.html">PMNS_TaylorExp.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00232">LnDerivative()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00232">LnDerivative()</a>.</p>
 
 </div>
 </div>
@@ -8968,7 +8968,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__Base_8h_source.html#l00295">295</a> of file <a class="el" href="PMNS__Base_8h_source.html">PMNS_Base.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__Base_8cxx_source.html#l00307">OscProb::PMNS_Base::AddPath()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00552">AvgProb()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01568">OscProb::PMNS_Base::AvgProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00590">AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01643">OscProb::PMNS_Base::AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01861">OscProb::PMNS_Base::AvgProbMatrix()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01900">OscProb::PMNS_Base::AvgProbMatrixLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01753">OscProb::PMNS_Base::AvgProbVector()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01791">OscProb::PMNS_Base::AvgProbVectorLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00287">OscProb::PMNS_Base::ClearPath()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01516">OscProb::PMNS_Base::ConvertEtoLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00300">OscProb::PMNS_Base::GetPath()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01387">OscProb::PMNS_Base::ProbMatrix()</a>, <a class="el" href="PMNS__DensityMatrix_8cxx_source.html#l00197">OscProb::PMNS_DensityMatrix::ProbMatrix()</a>, <a class="el" href="PMNS__NUNM_8cxx_source.html#l00264">OscProb::PMNS_NUNM::ProbMatrix()</a>, <a class="el" href="PMNS__OQS_8cxx_source.html#l00514">OscProb::PMNS_OQS::ProbMatrix()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01018">OscProb::PMNS_Base::Propagate()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00386">PropagateTaylor()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00364">OscProb::PMNS_Base::SetAtt()</a>, and <a class="el" href="PMNS__Base_8cxx_source.html#l00294">OscProb::PMNS_Base::SetPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__Base_8cxx_source.html#l00307">OscProb::PMNS_Base::AddPath()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00552">AvgProb()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01568">OscProb::PMNS_Base::AvgProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00590">AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01643">OscProb::PMNS_Base::AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01861">OscProb::PMNS_Base::AvgProbMatrix()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01900">OscProb::PMNS_Base::AvgProbMatrixLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01753">OscProb::PMNS_Base::AvgProbVector()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01791">OscProb::PMNS_Base::AvgProbVectorLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00287">OscProb::PMNS_Base::ClearPath()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01516">OscProb::PMNS_Base::ConvertEtoLoE()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00300">OscProb::PMNS_Base::GetPath()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01387">OscProb::PMNS_Base::ProbMatrix()</a>, <a class="el" href="PMNS__DensityMatrix_8cxx_source.html#l00197">OscProb::PMNS_DensityMatrix::ProbMatrix()</a>, <a class="el" href="PMNS__NUNM_8cxx_source.html#l00264">OscProb::PMNS_NUNM::ProbMatrix()</a>, <a class="el" href="PMNS__OQS_8cxx_source.html#l00514">OscProb::PMNS_OQS::ProbMatrix()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01018">OscProb::PMNS_Base::Propagate()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00386">PropagateTaylor()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00364">OscProb::PMNS_Base::SetAtt()</a>, and <a class="el" href="PMNS__Base_8cxx_source.html#l00294">OscProb::PMNS_Base::SetPath()</a>.</p>
 
 </div>
 </div>
@@ -9020,7 +9020,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__Base_8h_source.html#l00296">296</a> of file <a class="el" href="PMNS__Base_8h_source.html">PMNS_Base.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00590">AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01643">OscProb::PMNS_Base::AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01900">OscProb::PMNS_Base::AvgProbMatrixLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01791">OscProb::PMNS_Base::AvgProbVectorLoE()</a>, <a class="el" href="PMNS__OQS_8cxx_source.html#l00203">OscProb::PMNS_OQS::BuildHVMB()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00192">BuildKcosT()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01516">OscProb::PMNS_Base::ConvertEtoLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00157">OscProb::PMNS_Base::FillCache()</a>, <a class="el" href="PMNS__NSI_8cxx_source.html#l00341">OscProb::PMNS_NSI::GetZoACoup()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00274">OscProb::PMNS_Base::SetCurPath()</a>, <a class="el" href="PMNS__Fast_8cxx_source.html#l00098">OscProb::PMNS_Fast::SolveHam()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00134">OscProb::PMNS_Base::TryCache()</a>, <a class="el" href="PMNS__Decay_8cxx_source.html#l00200">OscProb::PMNS_Decay::UpdateHam()</a>, <a class="el" href="PMNS__Fast_8cxx_source.html#l00069">OscProb::PMNS_Fast::UpdateHam()</a>, <a class="el" href="PMNS__LIV_8cxx_source.html#l00254">OscProb::PMNS_LIV::UpdateHam()</a>, <a class="el" href="PMNS__NSI_8cxx_source.html#l00226">OscProb::PMNS_NSI::UpdateHam()</a>, <a class="el" href="PMNS__NUNM_8cxx_source.html#l00388">OscProb::PMNS_NUNM::UpdateHam()</a>, <a class="el" href="PMNS__SNSI_8cxx_source.html#l00120">OscProb::PMNS_SNSI::UpdateHam()</a>, and <a class="el" href="PMNS__Sterile_8cxx_source.html#l00046">OscProb::PMNS_Sterile::UpdateHam()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00590">AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01643">OscProb::PMNS_Base::AvgProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01900">OscProb::PMNS_Base::AvgProbMatrixLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01791">OscProb::PMNS_Base::AvgProbVectorLoE()</a>, <a class="el" href="PMNS__OQS_8cxx_source.html#l00203">OscProb::PMNS_OQS::BuildHVMB()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00192">BuildKcosT()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01516">OscProb::PMNS_Base::ConvertEtoLoE()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00157">OscProb::PMNS_Base::FillCache()</a>, <a class="el" href="PMNS__NSI_8cxx_source.html#l00341">OscProb::PMNS_NSI::GetZoACoup()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00274">OscProb::PMNS_Base::SetCurPath()</a>, <a class="el" href="PMNS__Fast_8cxx_source.html#l00098">OscProb::PMNS_Fast::SolveHam()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00134">OscProb::PMNS_Base::TryCache()</a>, <a class="el" href="PMNS__Decay_8cxx_source.html#l00200">OscProb::PMNS_Decay::UpdateHam()</a>, <a class="el" href="PMNS__Fast_8cxx_source.html#l00069">OscProb::PMNS_Fast::UpdateHam()</a>, <a class="el" href="PMNS__LIV_8cxx_source.html#l00254">OscProb::PMNS_LIV::UpdateHam()</a>, <a class="el" href="PMNS__NSI_8cxx_source.html#l00226">OscProb::PMNS_NSI::UpdateHam()</a>, <a class="el" href="PMNS__NUNM_8cxx_source.html#l00388">OscProb::PMNS_NUNM::UpdateHam()</a>, <a class="el" href="PMNS__SNSI_8cxx_source.html#l00120">OscProb::PMNS_SNSI::UpdateHam()</a>, and <a class="el" href="PMNS__Sterile_8cxx_source.html#l00046">OscProb::PMNS_Sterile::UpdateHam()</a>.</p>
 
 </div>
 </div>
@@ -9202,7 +9202,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8h_source.html#l00178">178</a> of file <a class="el" href="PMNS__TaylorExp_8h_source.html">PMNS_TaylorExp.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">InterpolationCosT()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00867">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00713">AvgAlgoCosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01260">ExtrapolationProbCosT()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>.</p>
 
 </div>
 </div>
@@ -9228,7 +9228,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__TaylorExp_8h_source.html#l00171">171</a> of file <a class="el" href="PMNS__TaylorExp_8h_source.html">PMNS_TaylorExp.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">InterpolationEnergy()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">ExtrapolationProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>, and <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00047">InitializeTaylorsVectors()</a>.</p>
 
 </div>
 </div>
@@ -9254,7 +9254,7 @@ We should cite them accordingly</p>
 
 <p class="definition">Definition at line <a class="el" href="PMNS__Base_8h_source.html#l00217">217</a> of file <a class="el" href="PMNS__Base_8h_source.html">PMNS_Base.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__OQS_8cxx_source.html#l00343">OscProb::PMNS_OQS::BuildDissipator()</a>, <a class="el" href="PMNS__OQS_8cxx_source.html#l00203">OscProb::PMNS_OQS::BuildHVMB()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00192">BuildKcosT()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00732">OscProb::PMNS_Base::GetDmEff()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01985">OscProb::PMNS_Base::GetSamplePoints()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">InterpolationEnergy()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">InterpolationEnergyLoE()</a>, <a class="el" href="PMNS__Deco_8cxx_source.html#l00251">OscProb::PMNS_Deco::PropagatePath()</a>, <a class="el" href="PMNS__Iter_8cxx_source.html#l00103">OscProb::PMNS_Iter::PropagatePath()</a>, <a class="el" href="PMNS__Fast_8cxx_source.html#l00154">OscProb::PMNS_Fast::SetVacuumEigensystem()</a>, <a class="el" href="PMNS__Decay_8cxx_source.html#l00200">OscProb::PMNS_Decay::UpdateHam()</a>, <a class="el" href="PMNS__Fast_8cxx_source.html#l00069">OscProb::PMNS_Fast::UpdateHam()</a>, <a class="el" href="PMNS__LIV_8cxx_source.html#l00254">OscProb::PMNS_LIV::UpdateHam()</a>, <a class="el" href="PMNS__NSI_8cxx_source.html#l00226">OscProb::PMNS_NSI::UpdateHam()</a>, <a class="el" href="PMNS__NUNM_8cxx_source.html#l00388">OscProb::PMNS_NUNM::UpdateHam()</a>, <a class="el" href="PMNS__SNSI_8cxx_source.html#l00120">OscProb::PMNS_SNSI::UpdateHam()</a>, and <a class="el" href="PMNS__Sterile_8cxx_source.html#l00046">OscProb::PMNS_Sterile::UpdateHam()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00902">AlgorithmDensityMatrix()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00633">AvgAlgo()</a>, <a class="el" href="PMNS__OQS_8cxx_source.html#l00343">OscProb::PMNS_OQS::BuildDissipator()</a>, <a class="el" href="PMNS__OQS_8cxx_source.html#l00203">OscProb::PMNS_OQS::BuildHVMB()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l00192">BuildKcosT()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01183">ExtrapolationProb()</a>, <a class="el" href="PMNS__TaylorExp_8cxx_source.html#l01218">ExtrapolationProbLoE()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00732">OscProb::PMNS_Base::GetDmEff()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l01985">OscProb::PMNS_Base::GetSamplePoints()</a>, <a class="el" href="PMNS__Deco_8cxx_source.html#l00251">OscProb::PMNS_Deco::PropagatePath()</a>, <a class="el" href="PMNS__Iter_8cxx_source.html#l00103">OscProb::PMNS_Iter::PropagatePath()</a>, <a class="el" href="PMNS__Fast_8cxx_source.html#l00154">OscProb::PMNS_Fast::SetVacuumEigensystem()</a>, <a class="el" href="PMNS__Decay_8cxx_source.html#l00200">OscProb::PMNS_Decay::UpdateHam()</a>, <a class="el" href="PMNS__Fast_8cxx_source.html#l00069">OscProb::PMNS_Fast::UpdateHam()</a>, <a class="el" href="PMNS__LIV_8cxx_source.html#l00254">OscProb::PMNS_LIV::UpdateHam()</a>, <a class="el" href="PMNS__NSI_8cxx_source.html#l00226">OscProb::PMNS_NSI::UpdateHam()</a>, <a class="el" href="PMNS__NUNM_8cxx_source.html#l00388">OscProb::PMNS_NUNM::UpdateHam()</a>, <a class="el" href="PMNS__SNSI_8cxx_source.html#l00120">OscProb::PMNS_SNSI::UpdateHam()</a>, and <a class="el" href="PMNS__Sterile_8cxx_source.html#l00046">OscProb::PMNS_Sterile::UpdateHam()</a>.</p>
 
 </div>
 </div>
