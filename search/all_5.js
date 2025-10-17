@@ -81,7 +81,7 @@ var searchData=
   ['fphases_78',['fPhases',['../classOscProb_1_1PMNS__Base.html#aafed7b62c249ec811201cbcbc58e0866',1,'OscProb::PMNS_Base']]],
   ['fpower_79',['fPower',['../classOscProb_1_1PMNS__OQS.html#a0f56544abea01012459700f1d79e1af6',1,'OscProb::PMNS_OQS::fPower()'],['../classOscProb_1_1PMNS__Deco.html#a19fdcdf9a8b2bd9677f72ca1fd77dc3e',1,'OscProb::PMNS_Deco::fPower()']]],
   ['fprec_80',['fPrec',['../classOscProb_1_1PMNS__Iter.html#a5a75316e1ec61004e90aff61b91bce6c',1,'OscProb::PMNS_Iter']]],
-  ['fprem_81',['fprem',['../classOscProb_1_1PMNS__TaylorExp.html#a3d9df38ecd40afa9a96a9a0050e1592e',1,'OscProb::PMNS_TaylorExp']]],
+  ['fprem_81',['fPrem',['../classOscProb_1_1PMNS__TaylorExp.html#ac642e39401175c6824976a606b385717',1,'OscProb::PMNS_TaylorExp']]],
   ['fpremlayers_82',['fPremLayers',['../classOscProb_1_1PremModel.html#aa84534556fd6e35ed67bd899883249fb',1,'OscProb::PremModel']]],
   ['fprevenergy_83',['fPrevEnergy',['../classOscProb_1_1PMNS__Iter.html#ae3b20d413f29c4f20022c9b99da633c2',1,'OscProb::PMNS_Iter']]],
   ['fprobe_84',['fProbe',['../classOscProb_1_1PMNS__Base.html#ab1fe4800ee3ae48df4fc942dce00e0d3',1,'OscProb::PMNS_Base']]],
