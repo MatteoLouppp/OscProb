@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"namespaceOscProb.html#a8414445995fd13f07a3c2c2b168dcb1f":[0,0,1,23],
+"namespaceOscProb.html#a8c3367945f87051d5a6ece39fb2b45bb":[0,0,1,30],
 "namespaceOscProb.html#a91f46d70c79f25dac1a66b7b6dc7605c":[0,0,1,26],
 "namespaceOscProb.html#a93a204f5324b67ab69907f71b1d8f700":[0,0,1,27],
 "namespaceOscProb.html#aa43d1e6e97b6dcad3a6cbbd7decbf0c6":[0,0,1,25],
