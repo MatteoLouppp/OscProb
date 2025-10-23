@@ -6,6 +6,7 @@ var dir_bfccd401955b95cf8c75461437045ac0 =
     [ "EarthModelBinned.h", "EarthModelBinned_8h.html", "EarthModelBinned_8h" ],
     [ "EigenPoint.h", "EigenPoint_8h.html", "EigenPoint_8h" ],
     [ "NuPath.h", "NuPath_8h.html", "NuPath_8h" ],
+    [ "PMNS_Avg.h", "PMNS__Avg_8h.html", "PMNS__Avg_8h" ],
     [ "PMNS_Base.h", "PMNS__Base_8h.html", "PMNS__Base_8h" ],
     [ "PMNS_Decay.h", "PMNS__Decay_8h.html", "PMNS__Decay_8h" ],
     [ "PMNS_Deco.h", "PMNS__Deco_8h.html", "PMNS__Deco_8h" ],
@@ -18,6 +19,5 @@ var dir_bfccd401955b95cf8c75461437045ac0 =
     [ "PMNS_OQS.h", "PMNS__OQS_8h.html", "PMNS__OQS_8h" ],
     [ "PMNS_SNSI.h", "PMNS__SNSI_8h.html", "PMNS__SNSI_8h" ],
     [ "PMNS_Sterile.h", "PMNS__Sterile_8h.html", "PMNS__Sterile_8h" ],
-    [ "PMNS_TaylorExp.h", "PMNS__TaylorExp_8h.html", "PMNS__TaylorExp_8h" ],
     [ "PremModel.h", "PremModel_8h.html", "PremModel_8h" ]
 ];

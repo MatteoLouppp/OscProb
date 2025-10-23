@@ -8,6 +8,7 @@ var annotated_dup =
       [ "EigenPoint", "structOscProb_1_1EigenPoint.html", "structOscProb_1_1EigenPoint" ],
       [ "IdxCompare", "structOscProb_1_1IdxCompare.html", "structOscProb_1_1IdxCompare" ],
       [ "NuPath", "structOscProb_1_1NuPath.html", "structOscProb_1_1NuPath" ],
+      [ "PMNS_Avg", "classOscProb_1_1PMNS__Avg.html", "classOscProb_1_1PMNS__Avg" ],
       [ "PMNS_Base", "classOscProb_1_1PMNS__Base.html", "classOscProb_1_1PMNS__Base" ],
       [ "PMNS_Decay", "classOscProb_1_1PMNS__Decay.html", "classOscProb_1_1PMNS__Decay" ],
       [ "PMNS_Deco", "classOscProb_1_1PMNS__Deco.html", "classOscProb_1_1PMNS__Deco" ],
@@ -20,7 +21,6 @@ var annotated_dup =
       [ "PMNS_OQS", "classOscProb_1_1PMNS__OQS.html", "classOscProb_1_1PMNS__OQS" ],
       [ "PMNS_SNSI", "classOscProb_1_1PMNS__SNSI.html", "classOscProb_1_1PMNS__SNSI" ],
       [ "PMNS_Sterile", "classOscProb_1_1PMNS__Sterile.html", "classOscProb_1_1PMNS__Sterile" ],
-      [ "PMNS_TaylorExp", "classOscProb_1_1PMNS__TaylorExp.html", "classOscProb_1_1PMNS__TaylorExp" ],
       [ "PremLayer", "structOscProb_1_1PremLayer.html", "structOscProb_1_1PremLayer" ],
       [ "PremModel", "classOscProb_1_1PremModel.html", "classOscProb_1_1PremModel" ],
       [ "TrajConstants", "structOscProb_1_1TrajConstants.html", "structOscProb_1_1TrajConstants" ]

@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('Utils_8h.html',''); initResizable(); }
 <code>#include &quot;<a class="el" href="PMNS__SNSI_8h_source.html">PMNS_SNSI.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="PMNS__Decay_8h_source.html">PMNS_Decay.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="PMNS__Sterile_8h_source.html">PMNS_Sterile.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="PMNS__TaylorExp_8h_source.html">PMNS_TaylorExp.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="PMNS__Avg_8h_source.html">PMNS_Avg.h</a>&quot;</code><br />
 </div>
 <p><a href="Utils_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -133,8 +133,8 @@ Functions</h2></td></tr>
 <tr class="separator:a117c7e0fb3b8e0dd9845f9f0d2ab26da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05bbfaf7a6b81b476c84a227126eb34e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOscProb_1_1PMNS__NUNM.html">OscProb::PMNS_NUNM</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utils_8h.html#a05bbfaf7a6b81b476c84a227126eb34e">GetNUNM</a> (bool is_nominal)</td></tr>
 <tr class="separator:a05bbfaf7a6b81b476c84a227126eb34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34529588376529c9f056f736c3ecc6c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html">OscProb::PMNS_TaylorExp</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utils_8h.html#a34529588376529c9f056f736c3ecc6c7">GetTaylorExp</a> (bool is_nominal)</td></tr>
-<tr class="separator:a34529588376529c9f056f736c3ecc6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9abcdd2bc45c20bf0d686ea9d1a3bc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOscProb_1_1PMNS__Avg.html">OscProb::PMNS_Avg</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utils_8h.html#ad9abcdd2bc45c20bf0d686ea9d1a3bc1">GetAvg</a> (bool is_nominal)</td></tr>
+<tr class="separator:ad9abcdd2bc45c20bf0d686ea9d1a3bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c065748e8cb1ef6936817ac6c3bd3df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOscProb_1_1PMNS__Base.html">OscProb::PMNS_Base</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utils_8h.html#a8c065748e8cb1ef6936817ac6c3bd3df">GetModel</a> (string model, bool is_nominal=false)</td></tr>
 <tr class="separator:a8c065748e8cb1ef6936817ac6c3bd3df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f5847ce05018e2eb7cf0565e0915656"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utils_8h.html#a4f5847ce05018e2eb7cf0565e0915656">GetListOfModels</a> ()</td></tr>
@@ -272,6 +272,39 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad9abcdd2bc45c20bf0d686ea9d1a3bc1" name="ad9abcdd2bc45c20bf0d686ea9d1a3bc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9abcdd2bc45c20bf0d686ea9d1a3bc1">&#9670;&nbsp;</a></span>GetAvg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classOscProb_1_1PMNS__Avg.html">OscProb::PMNS_Avg</a> * GetAvg </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>is_nominal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Utils_8h_source.html#l00187">187</a> of file <a class="el" href="Utils_8h_source.html">Utils.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  187</span>                                        {</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>  <a class="code hl_class" href="classOscProb_1_1PMNS__Avg.html">OscProb::PMNS_Avg</a>* p = <span class="keyword">new</span> <a class="code hl_class" href="classOscProb_1_1PMNS__Avg.html">OscProb::PMNS_Avg</a>();</div>
+<div class="line"><span class="lineno">  190</span>  <a class="code hl_function" href="Utils_8h.html#a4fddcd0f00e8b82872119537a730137b">SetNominalPars</a>(p);</div>
+<div class="line"><span class="lineno">  191</span>  <span class="keywordflow">return</span> p;</div>
+<div class="line"><span class="lineno">  192</span> </div>
+<div class="line"><span class="lineno">  193</span>}</div>
+<div class="ttc" id="aUtils_8h_html_a4fddcd0f00e8b82872119537a730137b"><div class="ttname"><a href="Utils_8h.html#a4fddcd0f00e8b82872119537a730137b">SetNominalPars</a></div><div class="ttdeci">void SetNominalPars(OscProb::PMNS_Base *p)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00020">Utils.h:20</a></div></div>
+<div class="ttc" id="aclassOscProb_1_1PMNS__Avg_html"><div class="ttname"><a href="classOscProb_1_1PMNS__Avg.html">OscProb::PMNS_Avg</a></div><div class="ttdoc">Implementation of oscillations of neutrinos in matter in a three-neutrino framework with a first orde...</div><div class="ttdef"><b>Definition:</b> <a href="PMNS__Avg_8h_source.html#l00031">PMNS_Avg.h:31</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="Utils_8h_source.html#l00020">SetNominalPars()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="Utils_8h_source.html#l00196">GetModel()</a>.</p>
+
+</div>
+</div>
 <a id="a9f3c2f157fe0bf8fce2ad5b51210d52b" name="a9f3c2f157fe0bf8fce2ad5b51210d52b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f3c2f157fe0bf8fce2ad5b51210d52b">&#9670;&nbsp;</a></span>GetDecay()</h2>
 
@@ -300,7 +333,6 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  104</span>  <span class="keywordflow">return</span> p;</div>
 <div class="line"><span class="lineno">  105</span> </div>
 <div class="line"><span class="lineno">  106</span>}</div>
-<div class="ttc" id="aUtils_8h_html_a4fddcd0f00e8b82872119537a730137b"><div class="ttname"><a href="Utils_8h.html#a4fddcd0f00e8b82872119537a730137b">SetNominalPars</a></div><div class="ttdeci">void SetNominalPars(OscProb::PMNS_Base *p)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00020">Utils.h:20</a></div></div>
 <div class="ttc" id="aclassOscProb_1_1PMNS__Decay_html"><div class="ttname"><a href="classOscProb_1_1PMNS__Decay.html">OscProb::PMNS_Decay</a></div><div class="ttdoc">Implementation of neutrino decay in a three-neutrino framework.</div><div class="ttdef"><b>Definition:</b> <a href="PMNS__Decay_8h_source.html#l00030">PMNS_Decay.h:30</a></div></div>
 <div class="ttc" id="aclassOscProb_1_1PMNS__Decay_html_a6eed8a6e8ab940a4995d8d2a43ed1307"><div class="ttname"><a href="classOscProb_1_1PMNS__Decay.html#a6eed8a6e8ab940a4995d8d2a43ed1307">OscProb::PMNS_Decay::SetAlpha3</a></div><div class="ttdeci">virtual void SetAlpha3(double alpha3)</div><div class="ttdef"><b>Definition:</b> <a href="PMNS__Decay_8cxx_source.html#l00062">PMNS_Decay.cxx:62</a></div></div>
 </div><!-- fragment -->
@@ -432,7 +464,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  215</span> </div>
 <div class="line"><span class="lineno">  216</span>  <span class="keywordflow">return</span> {<span class="stringliteral">&quot;Fast&quot;</span>, <span class="stringliteral">&quot;Iter&quot;</span>, <span class="stringliteral">&quot;Sterile&quot;</span>, <span class="stringliteral">&quot;NSI&quot;</span>,</div>
 <div class="line"><span class="lineno">  217</span>          <span class="stringliteral">&quot;Deco&quot;</span>, <span class="stringliteral">&quot;Decay&quot;</span>, <span class="stringliteral">&quot;LIV&quot;</span>, <span class="stringliteral">&quot;SNSI&quot;</span>,</div>
-<div class="line"><span class="lineno">  218</span>          <span class="stringliteral">&quot;NUNM&quot;</span>, <span class="stringliteral">&quot;OQS&quot;</span>, <span class="stringliteral">&quot;TaylorExp&quot;</span>};</div>
+<div class="line"><span class="lineno">  218</span>          <span class="stringliteral">&quot;NUNM&quot;</span>, <span class="stringliteral">&quot;OQS&quot;</span>, <span class="stringliteral">&quot;Avg&quot;</span>};</div>
 <div class="line"><span class="lineno">  219</span> </div>
 <div class="line"><span class="lineno">  220</span>}</div>
 </div><!-- fragment -->
@@ -516,16 +548,16 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="Utils_8h_source.html#l00196">196</a> of file <a class="el" href="Utils_8h_source.html">Utils.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  196</span>                                                                 {</div>
 <div class="line"><span class="lineno">  197</span> </div>
-<div class="line"><span class="lineno">  198</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;Iter&quot;</span>)      <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a53d073d28701b7f8abf77dcbdbe25786">GetIter</a>(is_nominal);</div>
-<div class="line"><span class="lineno">  199</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;Deco&quot;</span>)      <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a35c17b847feff2e59ecf7b9c4c164eb1">GetDeco</a>(is_nominal);</div>
-<div class="line"><span class="lineno">  200</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;Sterile&quot;</span>)   <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a3ca82e4ad574189d41bdd72ad54bb82c">GetSterile</a>(is_nominal);</div>
-<div class="line"><span class="lineno">  201</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;Decay&quot;</span>)     <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a9f3c2f157fe0bf8fce2ad5b51210d52b">GetDecay</a>(is_nominal);</div>
-<div class="line"><span class="lineno">  202</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;NSI&quot;</span>)       <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a5f6a7ac9c1c969d060726edffefd9428">GetNSI</a>(is_nominal);</div>
-<div class="line"><span class="lineno">  203</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;LIV&quot;</span>)       <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a117c7e0fb3b8e0dd9845f9f0d2ab26da">GetLIV</a>(is_nominal);</div>
-<div class="line"><span class="lineno">  204</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;SNSI&quot;</span>)      <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#ab2c8b7b18746f234083fa3b370242650">GetSNSI</a>(is_nominal);</div>
-<div class="line"><span class="lineno">  205</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;NUNM&quot;</span>)      <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a05bbfaf7a6b81b476c84a227126eb34e">GetNUNM</a>(is_nominal);</div>
-<div class="line"><span class="lineno">  206</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;OQS&quot;</span>)       <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#ab37ceed04c6b021cff98284dd524830c">GetOQS</a>(is_nominal);</div>
-<div class="line"><span class="lineno">  207</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;TaylorExp&quot;</span>) <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a34529588376529c9f056f736c3ecc6c7">GetTaylorExp</a>(is_nominal);</div>
+<div class="line"><span class="lineno">  198</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;Iter&quot;</span>)    <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a53d073d28701b7f8abf77dcbdbe25786">GetIter</a>(is_nominal);</div>
+<div class="line"><span class="lineno">  199</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;Deco&quot;</span>)    <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a35c17b847feff2e59ecf7b9c4c164eb1">GetDeco</a>(is_nominal);</div>
+<div class="line"><span class="lineno">  200</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;Sterile&quot;</span>) <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a3ca82e4ad574189d41bdd72ad54bb82c">GetSterile</a>(is_nominal);</div>
+<div class="line"><span class="lineno">  201</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;Decay&quot;</span>)   <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a9f3c2f157fe0bf8fce2ad5b51210d52b">GetDecay</a>(is_nominal);</div>
+<div class="line"><span class="lineno">  202</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;NSI&quot;</span>)     <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a5f6a7ac9c1c969d060726edffefd9428">GetNSI</a>(is_nominal);</div>
+<div class="line"><span class="lineno">  203</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;LIV&quot;</span>)     <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a117c7e0fb3b8e0dd9845f9f0d2ab26da">GetLIV</a>(is_nominal);</div>
+<div class="line"><span class="lineno">  204</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;SNSI&quot;</span>)    <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#ab2c8b7b18746f234083fa3b370242650">GetSNSI</a>(is_nominal);</div>
+<div class="line"><span class="lineno">  205</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;NUNM&quot;</span>)    <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a05bbfaf7a6b81b476c84a227126eb34e">GetNUNM</a>(is_nominal);</div>
+<div class="line"><span class="lineno">  206</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;OQS&quot;</span>)     <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#ab37ceed04c6b021cff98284dd524830c">GetOQS</a>(is_nominal);</div>
+<div class="line"><span class="lineno">  207</span>  <span class="keywordflow">if</span>(model == <span class="stringliteral">&quot;Avg&quot;</span>)     <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#ad9abcdd2bc45c20bf0d686ea9d1a3bc1">GetAvg</a>(is_nominal);</div>
 <div class="line"><span class="lineno">  208</span> </div>
 <div class="line"><span class="lineno">  209</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="Utils_8h.html#a1a865612535a7b341612439800cadab1">GetFast</a>(is_nominal);</div>
 <div class="line"><span class="lineno">  210</span> </div>
@@ -533,7 +565,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="aUtils_8h_html_a05bbfaf7a6b81b476c84a227126eb34e"><div class="ttname"><a href="Utils_8h.html#a05bbfaf7a6b81b476c84a227126eb34e">GetNUNM</a></div><div class="ttdeci">OscProb::PMNS_NUNM * GetNUNM(bool is_nominal)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00169">Utils.h:169</a></div></div>
 <div class="ttc" id="aUtils_8h_html_a117c7e0fb3b8e0dd9845f9f0d2ab26da"><div class="ttname"><a href="Utils_8h.html#a117c7e0fb3b8e0dd9845f9f0d2ab26da">GetLIV</a></div><div class="ttdeci">OscProb::PMNS_LIV * GetLIV(bool is_nominal)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00145">Utils.h:145</a></div></div>
 <div class="ttc" id="aUtils_8h_html_a1a865612535a7b341612439800cadab1"><div class="ttname"><a href="Utils_8h.html#a1a865612535a7b341612439800cadab1">GetFast</a></div><div class="ttdeci">OscProb::PMNS_Fast * GetFast(bool is_nominal)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00033">Utils.h:33</a></div></div>
-<div class="ttc" id="aUtils_8h_html_a34529588376529c9f056f736c3ecc6c7"><div class="ttname"><a href="Utils_8h.html#a34529588376529c9f056f736c3ecc6c7">GetTaylorExp</a></div><div class="ttdeci">OscProb::PMNS_TaylorExp * GetTaylorExp(bool is_nominal)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00187">Utils.h:187</a></div></div>
 <div class="ttc" id="aUtils_8h_html_a35c17b847feff2e59ecf7b9c4c164eb1"><div class="ttname"><a href="Utils_8h.html#a35c17b847feff2e59ecf7b9c4c164eb1">GetDeco</a></div><div class="ttdeci">OscProb::PMNS_Deco * GetDeco(bool is_nominal)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00051">Utils.h:51</a></div></div>
 <div class="ttc" id="aUtils_8h_html_a3ca82e4ad574189d41bdd72ad54bb82c"><div class="ttname"><a href="Utils_8h.html#a3ca82e4ad574189d41bdd72ad54bb82c">GetSterile</a></div><div class="ttdeci">OscProb::PMNS_Sterile * GetSterile(bool is_nominal)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00080">Utils.h:80</a></div></div>
 <div class="ttc" id="aUtils_8h_html_a53d073d28701b7f8abf77dcbdbe25786"><div class="ttname"><a href="Utils_8h.html#a53d073d28701b7f8abf77dcbdbe25786">GetIter</a></div><div class="ttdeci">OscProb::PMNS_Iter * GetIter(bool is_nominal)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00042">Utils.h:42</a></div></div>
@@ -541,8 +572,9 @@ Functions</h2></td></tr>
 <div class="ttc" id="aUtils_8h_html_a9f3c2f157fe0bf8fce2ad5b51210d52b"><div class="ttname"><a href="Utils_8h.html#a9f3c2f157fe0bf8fce2ad5b51210d52b">GetDecay</a></div><div class="ttdeci">OscProb::PMNS_Decay * GetDecay(bool is_nominal)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00096">Utils.h:96</a></div></div>
 <div class="ttc" id="aUtils_8h_html_ab2c8b7b18746f234083fa3b370242650"><div class="ttname"><a href="Utils_8h.html#ab2c8b7b18746f234083fa3b370242650">GetSNSI</a></div><div class="ttdeci">OscProb::PMNS_SNSI * GetSNSI(bool is_nominal)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00127">Utils.h:127</a></div></div>
 <div class="ttc" id="aUtils_8h_html_ab37ceed04c6b021cff98284dd524830c"><div class="ttname"><a href="Utils_8h.html#ab37ceed04c6b021cff98284dd524830c">GetOQS</a></div><div class="ttdeci">OscProb::PMNS_OQS * GetOQS(bool is_nominal)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00065">Utils.h:65</a></div></div>
+<div class="ttc" id="aUtils_8h_html_ad9abcdd2bc45c20bf0d686ea9d1a3bc1"><div class="ttname"><a href="Utils_8h.html#ad9abcdd2bc45c20bf0d686ea9d1a3bc1">GetAvg</a></div><div class="ttdeci">OscProb::PMNS_Avg * GetAvg(bool is_nominal)</div><div class="ttdef"><b>Definition:</b> <a href="Utils_8h_source.html#l00187">Utils.h:187</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="Utils_8h_source.html#l00096">GetDecay()</a>, <a class="el" href="Utils_8h_source.html#l00051">GetDeco()</a>, <a class="el" href="Utils_8h_source.html#l00033">GetFast()</a>, <a class="el" href="Utils_8h_source.html#l00042">GetIter()</a>, <a class="el" href="Utils_8h_source.html#l00145">GetLIV()</a>, <a class="el" href="Utils_8h_source.html#l00109">GetNSI()</a>, <a class="el" href="Utils_8h_source.html#l00169">GetNUNM()</a>, <a class="el" href="Utils_8h_source.html#l00065">GetOQS()</a>, <a class="el" href="Utils_8h_source.html#l00127">GetSNSI()</a>, <a class="el" href="Utils_8h_source.html#l00080">GetSterile()</a>, and <a class="el" href="Utils_8h_source.html#l00187">GetTaylorExp()</a>.</p>
+<p class="reference">References <a class="el" href="Utils_8h_source.html#l00187">GetAvg()</a>, <a class="el" href="Utils_8h_source.html#l00096">GetDecay()</a>, <a class="el" href="Utils_8h_source.html#l00051">GetDeco()</a>, <a class="el" href="Utils_8h_source.html#l00033">GetFast()</a>, <a class="el" href="Utils_8h_source.html#l00042">GetIter()</a>, <a class="el" href="Utils_8h_source.html#l00145">GetLIV()</a>, <a class="el" href="Utils_8h_source.html#l00109">GetNSI()</a>, <a class="el" href="Utils_8h_source.html#l00169">GetNUNM()</a>, <a class="el" href="Utils_8h_source.html#l00065">GetOQS()</a>, <a class="el" href="Utils_8h_source.html#l00127">GetSNSI()</a>, and <a class="el" href="Utils_8h_source.html#l00080">GetSterile()</a>.</p>
 
 </div>
 </div>
@@ -752,38 +784,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a34529588376529c9f056f736c3ecc6c7" name="a34529588376529c9f056f736c3ecc6c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34529588376529c9f056f736c3ecc6c7">&#9670;&nbsp;</a></span>GetTaylorExp()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classOscProb_1_1PMNS__TaylorExp.html">OscProb::PMNS_TaylorExp</a> * GetTaylorExp </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>is_nominal</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Utils_8h_source.html#l00187">187</a> of file <a class="el" href="Utils_8h_source.html">Utils.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  187</span>                                                    {</div>
-<div class="line"><span class="lineno">  188</span> </div>
-<div class="line"><span class="lineno">  189</span>  <a class="code hl_class" href="classOscProb_1_1PMNS__TaylorExp.html">OscProb::PMNS_TaylorExp</a>* p = <span class="keyword">new</span> <a class="code hl_class" href="classOscProb_1_1PMNS__TaylorExp.html">OscProb::PMNS_TaylorExp</a>();</div>
-<div class="line"><span class="lineno">  190</span>  <a class="code hl_function" href="Utils_8h.html#a4fddcd0f00e8b82872119537a730137b">SetNominalPars</a>(p);</div>
-<div class="line"><span class="lineno">  191</span>  <span class="keywordflow">return</span> p;</div>
-<div class="line"><span class="lineno">  192</span> </div>
-<div class="line"><span class="lineno">  193</span>}</div>
-<div class="ttc" id="aclassOscProb_1_1PMNS__TaylorExp_html"><div class="ttname"><a href="classOscProb_1_1PMNS__TaylorExp.html">OscProb::PMNS_TaylorExp</a></div><div class="ttdoc">Implementation of oscillations of neutrinos in matter in a three-neutrino framework with a first orde...</div><div class="ttdef"><b>Definition:</b> <a href="PMNS__TaylorExp_8h_source.html#l00031">PMNS_TaylorExp.h:31</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="Utils_8h_source.html#l00020">SetNominalPars()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="Utils_8h_source.html#l00196">GetModel()</a>.</p>
-
-</div>
-</div>
 <a id="aab1f4fea28da49a4ba323ee630a7de81" name="aab1f4fea28da49a4ba323ee630a7de81"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab1f4fea28da49a4ba323ee630a7de81">&#9670;&nbsp;</a></span>SaveTestFile()</h2>
 
@@ -877,7 +877,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="PMNS__Base_8cxx_source.html#l00539">OscProb::PMNS_Base::SetAngle()</a>, <a class="el" href="PMNS__Base_8cxx_source.html#l00602">OscProb::PMNS_Base::SetDelta()</a>, and <a class="el" href="PMNS__Base_8cxx_source.html#l00674">OscProb::PMNS_Base::SetDm()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Utils_8h_source.html#l00096">GetDecay()</a>, <a class="el" href="Utils_8h_source.html#l00051">GetDeco()</a>, <a class="el" href="Utils_8h_source.html#l00033">GetFast()</a>, <a class="el" href="Utils_8h_source.html#l00042">GetIter()</a>, <a class="el" href="Utils_8h_source.html#l00145">GetLIV()</a>, <a class="el" href="Utils_8h_source.html#l00109">GetNSI()</a>, <a class="el" href="Utils_8h_source.html#l00169">GetNUNM()</a>, <a class="el" href="Utils_8h_source.html#l00065">GetOQS()</a>, <a class="el" href="Utils_8h_source.html#l00127">GetSNSI()</a>, <a class="el" href="Utils_8h_source.html#l00080">GetSterile()</a>, and <a class="el" href="Utils_8h_source.html#l00187">GetTaylorExp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Utils_8h_source.html#l00187">GetAvg()</a>, <a class="el" href="Utils_8h_source.html#l00096">GetDecay()</a>, <a class="el" href="Utils_8h_source.html#l00051">GetDeco()</a>, <a class="el" href="Utils_8h_source.html#l00033">GetFast()</a>, <a class="el" href="Utils_8h_source.html#l00042">GetIter()</a>, <a class="el" href="Utils_8h_source.html#l00145">GetLIV()</a>, <a class="el" href="Utils_8h_source.html#l00109">GetNSI()</a>, <a class="el" href="Utils_8h_source.html#l00169">GetNUNM()</a>, <a class="el" href="Utils_8h_source.html#l00065">GetOQS()</a>, <a class="el" href="Utils_8h_source.html#l00127">GetSNSI()</a>, and <a class="el" href="Utils_8h_source.html#l00080">GetSterile()</a>.</p>
 
 </div>
 </div>
