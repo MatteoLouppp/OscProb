@@ -61,7 +61,7 @@ var NAVTREEINDEX =
 [
 "Absorption_8cxx.html",
 "classOscProb_1_1PMNS__Avg.html",
-"classOscProb_1_1PMNS__Avg.html#ac8b2d41b0f315f00de139a11034e9439",
+"classOscProb_1_1PMNS__Avg.html#ac74206f349687da141392c81e2ba6b0d",
 "classOscProb_1_1PMNS__Base.html#ace7875cf6d3bec161a2b7ed2690aec34",
 "classOscProb_1_1PMNS__Decay.html#adb8dbc91d4286d2e7c8f768c59476241",
 "classOscProb_1_1PMNS__Deco.html#add6533a9fc9acdfc7ae258b62570d78d",
