@@ -23,6 +23,7 @@ var annotated_dup =
       [ "PMNS_Sterile", "classOscProb_1_1PMNS__Sterile.html", "classOscProb_1_1PMNS__Sterile" ],
       [ "PremLayer", "structOscProb_1_1PremLayer.html", "structOscProb_1_1PremLayer" ],
       [ "PremModel", "classOscProb_1_1PremModel.html", "classOscProb_1_1PremModel" ],
+      [ "SKMatricesPoint", "structOscProb_1_1SKMatricesPoint.html", "structOscProb_1_1SKMatricesPoint" ],
       [ "TrajConstants", "structOscProb_1_1TrajConstants.html", "structOscProb_1_1TrajConstants" ]
     ] ],
     [ "std", "namespacestd.html", [

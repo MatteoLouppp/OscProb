@@ -22,6 +22,7 @@ var namespaceOscProb =
     [ "PMNS_Sterile", "classOscProb_1_1PMNS__Sterile.html", "classOscProb_1_1PMNS__Sterile" ],
     [ "PremLayer", "structOscProb_1_1PremLayer.html", "structOscProb_1_1PremLayer" ],
     [ "PremModel", "classOscProb_1_1PremModel.html", "classOscProb_1_1PremModel" ],
+    [ "SKMatricesPoint", "structOscProb_1_1SKMatricesPoint.html", "structOscProb_1_1SKMatricesPoint" ],
     [ "TrajConstants", "structOscProb_1_1TrajConstants.html", "structOscProb_1_1TrajConstants" ],
     [ "complexD", "namespaceOscProb.html#a8414445995fd13f07a3c2c2b168dcb1f", null ],
     [ "matrixC", "namespaceOscProb.html#aeb338ac53fcdff178797945ff5e19137", null ],

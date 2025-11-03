@@ -27,6 +27,7 @@ var hierarchy =
       [ "OscProb::PMNS_Sterile", "classOscProb_1_1PMNS__Sterile.html", null ]
     ] ],
     [ "OscProb::PremLayer", "structOscProb_1_1PremLayer.html", null ],
+    [ "OscProb::SKMatricesPoint", "structOscProb_1_1SKMatricesPoint.html", null ],
     [ "TObject", null, [
       [ "OscProb::EarthModelBase", "classOscProb_1_1EarthModelBase.html", [
         [ "OscProb::EarthModelBinned", "classOscProb_1_1EarthModelBinned.html", null ],
