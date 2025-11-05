@@ -19,6 +19,5 @@ var dir_bfccd401955b95cf8c75461437045ac0 =
     [ "PMNS_OQS.h", "PMNS__OQS_8h.html", "PMNS__OQS_8h" ],
     [ "PMNS_SNSI.h", "PMNS__SNSI_8h.html", "PMNS__SNSI_8h" ],
     [ "PMNS_Sterile.h", "PMNS__Sterile_8h.html", "PMNS__Sterile_8h" ],
-    [ "PremModel.h", "PremModel_8h.html", "PremModel_8h" ],
-    [ "SKMatricesPoint.h", "SKMatricesPoint_8h.html", "SKMatricesPoint_8h" ]
+    [ "PremModel.h", "PremModel_8h.html", "PremModel_8h" ]
 ];
